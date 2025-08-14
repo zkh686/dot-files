@@ -1,0 +1,27 @@
+# -----------------------------------------------------
+# CUSTOMIZATION
+# -----------------------------------------------------
+POSH=zen
+
+# -----------------------------------------------------
+# Set-up FZF key bindings (CTRL R for fuzzy history finder)
+# -----------------------------------------------------
+source <(fzf --zsh)
+
+# zsh history
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
+# -----------------------------------------------------
+# Prompt
+# -----------------------------------------------------
+ #eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+#eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/agnoster.omp.json)"
+
+# Shipped Theme
+eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/catppuccin_macchiato.omp.json )"
+
+
+eval "$(zoxide init --cmd cd zsh)"

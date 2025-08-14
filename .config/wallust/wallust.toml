@@ -1,0 +1,14 @@
+backend = "resized"
+threshold = 10
+palette = "dark"
+
+[templates]
+kitty.template = 'templates/kitty-colors.conf'
+kitty.target = '~/.config/kitty/colors-wallust.conf'
+
+#alacritty = { templWate = 'alacritty.toml', target = '~/.config/alacritty/colors.toml' }
+
+alacritty = { template = 'templates/colors-alacritty', target = '~/.config/alacritty/alacritty-colors.toml' }
+
+#not sure how to do wezterm yet
+#wezterm = { template = 'templates/colors-wezterm', target = '~/.config/wezterm/wezterm-colors.toml' }

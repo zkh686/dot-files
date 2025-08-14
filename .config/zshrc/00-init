@@ -1,0 +1,37 @@
+# -----------------------------------------------------
+# INIT
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Exports
+# -----------------------------------------------------
+export EDITOR=nvim
+export PATH=$PATH:~/.cargo/bin/
+
+
+
+
+
+function chpwd() {
+    emulate -L zsh
+    ls -a
+}
+
+
+# function list_all() {
+#     emulate -L zsh
+#     ls -a
+# }
+chpwd_functions=(${chpwd_functions[@]} "list_all")
+
+
+#auto ls after cd
+#there's probably a better way to do this
+# function cd() {
+#     emulate -LR zsh
+#     builtin cd $@ &&
+#     ls -a
+# }
+
+
+#eval "$(zoxide init zsh)"
