@@ -54,7 +54,3 @@ systemctl --user start xdg-desktop-portal
 systemctl --user start xdg-desktop-portal-hyprland
 
 
-#I'm sseeing 2 waybars when I launch with this uncommented, Do I need it?
-# # Run waybar
-# sleep $_sleep3
-# ~/.config/waybar/launch.sh

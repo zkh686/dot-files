@@ -147,13 +147,14 @@
     // START APPS LABEL
     "format": "Apps",
     // END APPS LABEL
-    "on-click": "sleep 0.2;pkill rofi || rofi -show drun -replace",
+    // "on-click": "sleep 0.2;pkill rofi || rofi -show drun -replace",
+    "on-click": "vicinae toggle",
     "on-click-right": "~/.config/hypr/scripts/keybindings.sh",
     "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings"
   },
 
   // Rofi Application Launcher
-  "custom/appmenuicon": {
+  "custom/appmenu": {
     "format": "",
     "on-click": "sleep 0.2;rofi -show drun -replace",
     "on-click-right": "~/.config/hypr/scripts/keybindings.sh",

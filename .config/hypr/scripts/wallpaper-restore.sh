@@ -41,3 +41,13 @@ fi
 
 echo ":: Setting wallpaper with source image $wallpaper"
 waypaper --wallpaper "$wallpaper"
+
+
+$HOME/.cargo/bin/matugen image $wallpaper -m "dark"
+
+# -----------------------------------------------------
+# Execute wallust
+# -----------------------------------------------------
+
+echo ":: Execute wallust with $wallpaper"
+$HOME/.cargo/bin/wallust run $wallpaper

@@ -34,4 +34,4 @@ chpwd_functions=(${chpwd_functions[@]} "list_all")
 # }
 
 
-#eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh)"

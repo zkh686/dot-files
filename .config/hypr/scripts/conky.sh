@@ -1,1 +1,1 @@
-sleep 1 && conky
+sleep 1 && conky &
