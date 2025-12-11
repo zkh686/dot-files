@@ -1,0 +1,29 @@
+2025-12-10 19:50:43.328 [info] Started local extension host with pid 82494.
+2025-12-10 19:50:43.624 [info] [Continue.continue]: Command `continue.focusContinueInput` already registered by Continue - open-source AI code agent (Continue.continue)
+2025-12-10 19:50:44.286 [error] [Extension Host] (node:82494) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-10 19:50:45.878 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-12-10 19:50:45.882 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:45.884 [error] [Extension Host] Failed to register Continue config.yaml schema, most likely, YAML extension is not installed CodeExpectedError: Unable to write to User Settings because yaml.schemas is not a registered configuration.
+    at Bkt.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:6793)
+    at Bkt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:9281)
+    at Bkt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3874)
+    at Object.factory (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3774)
+    at Qv.j (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75974)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75886
+    at new Promise (<anonymous>)
+    at Qv.queue (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75828)
+    at Bkt.writeConfiguration (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3743)
+    at cbn.Hb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:42702)
+2025-12-10 19:50:46.191 [info] [perf] Render performance baseline is 24ms
+2025-12-10 19:50:46.282 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.362 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.363 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.443 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.443 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.526 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.527 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.610 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.610 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.695 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker
+2025-12-10 19:50:46.695 [error] [Extension Host] Document /home/zkh/dot-files/README.md not found in AST tracker

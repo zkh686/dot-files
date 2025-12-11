@@ -1,0 +1,20 @@
+2025-11-29 14:16:44.439 [info] Started local extension host with pid 19764.
+2025-11-29 14:16:44.661 [info] [Continue.continue]: Command `continue.focusContinueInput` already registered by Continue - open-source AI code agent (Continue.continue)
+2025-11-29 14:16:44.904 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at _Dt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-11-29 14:16:46.205 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-11-29 14:16:46.206 [error] [Extension Host] (node:19764) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-29 14:16:46.207 [error] [Extension Host] Failed to register Continue config.yaml schema, most likely, YAML extension is not installed CodeExpectedError: Unable to write to User Settings because yaml.schemas is not a registered configuration.
+    at Fxt.toConfigurationEditingError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:8351)
+    at Fxt.validate (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:11157)
+    at Fxt.doWriteConfiguration (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:4720)
+    at Object.factory (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:4576)
+    at J_.consume (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:77696)
+    at vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:77511
+    at new Promise (<anonymous>)
+    at J_.queue (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:77435)
+    at Fxt.writeConfiguration (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:4545)
+    at ivn.writeConfigurationValue (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:61506)
+2025-11-29 14:16:47.107 [info] [perf] Render performance baseline is 20ms

@@ -1,0 +1,36 @@
+2025-11-28 21:16:42.579 [info] Started local extension host with pid 41120.
+2025-11-28 21:16:42.851 [info] [Continue.continue]: Command `continue.focusContinueInput` already registered by Continue - open-source AI code agent (Continue.continue)
+2025-11-28 21:16:43.363 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at _Dt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-11-28 21:16:44.487 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-11-28 21:16:44.488 [error] [Extension Host] (node:41120) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-28 21:16:44.489 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:16:44.493 [error] [Extension Host] Failed to register Continue config.yaml schema, most likely, YAML extension is not installed CodeExpectedError: Unable to write to User Settings because yaml.schemas is not a registered configuration.
+    at Fxt.toConfigurationEditingError (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:8351)
+    at Fxt.validate (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:11157)
+    at Fxt.doWriteConfiguration (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:4720)
+    at Object.factory (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:4576)
+    at J_.consume (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:77696)
+    at vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:77511
+    at new Promise (<anonymous>)
+    at J_.queue (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:30:77435)
+    at Fxt.writeConfiguration (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:4545)
+    at ivn.writeConfigurationValue (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3825:61506)
+2025-11-28 21:16:45.337 [info] [perf] Render performance baseline is 22ms
+2025-11-28 21:17:13.267 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:13.268 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:20.103 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:20.939 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:21.324 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:21.532 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:21.713 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:21.855 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:22.037 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:22.215 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:22.344 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:22.749 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:22.944 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:23.296 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker
+2025-11-28 21:17:23.631 [error] [Extension Host] Document /home/zkh/.mydotfiles/com.ml4w.dotfiles/.config/waybar/themeswitcher.sh not found in AST tracker

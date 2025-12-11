@@ -1,0 +1,51 @@
+2025-12-10 19:50:44.478 [info] [main] Log level: Info
+2025-12-10 19:50:44.478 [info] [main] Validating found git in: "git"
+2025-12-10 19:50:44.478 [info] [main] Using git "2.52.0" from "git"
+2025-12-10 19:50:44.478 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-10 19:50:44.478 [info] > git rev-parse --show-toplevel [10ms]
+2025-12-10 19:50:44.478 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-12-10 19:50:44.478 [info] [Model][openRepository] Opened repository (path): /home/zkh/dot-files
+2025-12-10 19:50:44.478 [info] [Model][openRepository] Opened repository (real path): /home/zkh/dot-files
+2025-12-10 19:50:44.478 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-10 19:50:44.478 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-10 19:50:44.478 [info] > git config --get commit.template [2ms]
+2025-12-10 19:50:44.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-10 19:50:44.478 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zkh/dot-files/.git/refs/remotes/origin/main'
+2025-12-10 19:50:44.479 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-10 19:50:44.479 [info] > git status -z -uall [11ms]
+2025-12-10 19:50:44.479 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-10 19:50:44.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-12-10 19:50:45.039 [info] > git config --get --local branch.main.vscode-merge-base [553ms]
+2025-12-10 19:50:45.039 [warning] [Git][config] git config failed: Failed to execute git
+2025-12-10 19:50:45.043 [info] > git config --get commit.template [561ms]
+2025-12-10 19:50:45.055 [info] > git check-ignore -v -z --stdin [7ms]
+2025-12-10 19:50:45.055 [info] > git reflog main --grep-reflog=branch: Created from *. [12ms]
+2025-12-10 19:50:45.066 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2025-12-10 19:50:45.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-12-10 19:50:45.076 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zkh/dot-files/.git/refs/remotes/origin/main'
+2025-12-10 19:50:45.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2025-12-10 19:50:45.092 [info] > git show --textconv :README.md [6ms]
+2025-12-10 19:50:45.092 [info] > git config --add --local branch.main.vscode-merge-base origin/main [11ms]
+2025-12-10 19:50:45.093 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2025-12-10 19:50:45.109 [info] > git ls-files --stage -- README.md [18ms]
+2025-12-10 19:50:45.114 [info] > git config --get commit.template [5ms]
+2025-12-10 19:50:45.115 [info] > git cat-file -s 0086b20b8e08254609f86635086290d169bdc388 [2ms]
+2025-12-10 19:50:45.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-10 19:50:45.124 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zkh/dot-files/.git/refs/remotes/origin/main'
+2025-12-10 19:50:45.125 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-10 19:50:45.134 [info] > git status -z -uall [5ms]
+2025-12-10 19:50:45.135 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-10 19:50:45.145 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-12-10 19:50:45.150 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2025-12-10 19:50:45.154 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 885879cb2bc8e1afd976062d19ceec77e065ff00...refs/remotes/origin/main -- [5ms]
+2025-12-10 19:50:45.154 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 885879cb2bc8e1afd976062d19ceec77e065ff00...refs/remotes/origin/main -- [1ms]
+2025-12-10 19:50:45.893 [info] > git blame --root --incremental 885879cb2bc8e1afd976062d19ceec77e065ff00 -- README.md [1ms]
+2025-12-10 19:50:46.888 [info] > git config --get commit.template [5ms]
+2025-12-10 19:50:46.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-12-10 19:50:46.893 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zkh/dot-files/.git/refs/remotes/origin/main'
+2025-12-10 19:50:46.894 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-12-10 19:50:46.902 [info] > git status -z -uall [4ms]
+2025-12-10 19:50:46.903 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-10 19:50:46.986 [info] > git ls-files --stage -- README.md [1ms]
+2025-12-10 19:50:46.991 [info] > git cat-file -s 0086b20b8e08254609f86635086290d169bdc388 [1ms]
+2025-12-10 19:50:46.997 [info] > git show --textconv :README.md [2ms]

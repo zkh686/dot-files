@@ -1,0 +1,13 @@
+2025-12-10 17:52:18.078 [info] Extension host with pid 8396 started
+2025-12-10 17:52:18.090 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-10 17:52:18.120 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-10 17:52:18.125 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-10 17:52:18.169 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-10 17:52:18.232 [info] Eager extensions activated
+2025-12-10 17:52:18.233 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-10 17:52:18.239 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-10 17:52:18.256 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2025-12-10 17:52:19.690 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-10 17:52:30.543 [warning] TextEditor is closed/disposed
+2025-12-10 17:53:26.586 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-10 17:53:26.593 [info] Extension host with pid 8396 exiting with code 0

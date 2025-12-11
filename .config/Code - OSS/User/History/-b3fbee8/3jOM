@@ -1,0 +1,14 @@
+# -----------------------------------------------------
+# INIT
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Exports
+# -----------------------------------------------------
+export EDITOR=nvim
+export PATH=$PATH:~/.cargo/bin/
+export PATH=$PATH:~/.local/bin/
+
+#aauto ls after cd
+autoload -U add-zsh-hook
+add-zsh-hook -Uz chpwd (){ ls -a; }

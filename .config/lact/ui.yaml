@@ -1,0 +1,17 @@
+selected_gpu: 1002:744C-1EAE:7901-0000:09:00.0
+plots_time_period: 60
+plots_per_row: 2
+stats_poll_interval_ms: 0
+gpus:
+  1002:744C-1EAE:7901-0000:09:00.0:
+    plots:
+    - - !Temperature edge
+      - !Temperature junction
+      - !Temperature mem
+    - - GpuClock
+      - GpuTargetClock
+      - VramClock
+    - - FanRpm
+      - FanPwm
+    - - PowerAverage
+      - PowerCap

@@ -1,0 +1,26 @@
+# wallust.toml needs to include this
+# rio = { template = 'rio.toml', target = '~/.config/rio/colors.toml' }
+# and rio.toml should import that file under [general]
+[colors.primary]
+background = "#1D1D23"
+foreground = "#FFF9E7"
+
+[colors.normal]
+black   = "#44434A"
+red     = "#A99FE4"
+green   = "#F87FCB"
+yellow  = "#FB9298"
+blue    = "#F9D0BB"
+magenta = "#FACDE3"
+cyan    = "#FEEEBA"
+white   = "#F6EED4"
+
+[colors.bright]
+black   = "#ACA794"
+red     = "#A99FE4"
+green   = "#F87FCB"
+yellow  = "#FB9298"
+blue    = "#F9D0BB"
+magenta = "#FACDE3"
+cyan    = "#FEEEBA"
+white   = "#F6EED4"

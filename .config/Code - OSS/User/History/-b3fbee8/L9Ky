@@ -1,0 +1,14 @@
+# -----------------------------------------------------
+# INIT
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Exports
+# -----------------------------------------------------
+export EDITOR=nvim
+export PATH=$PATH:~/.cargo/bin/
+export PATH=$PATH:~/.local/bin/
+
+antigen bundle zsh-users/zsh-autosuggestions
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh

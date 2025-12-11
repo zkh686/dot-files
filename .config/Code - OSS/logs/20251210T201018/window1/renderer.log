@@ -1,0 +1,24 @@
+2025-12-10 20:10:19.601 [info] Started local extension host with pid 97190.
+2025-12-10 20:10:19.896 [info] [Continue.continue]: Command `continue.focusContinueInput` already registered by Continue - open-source AI code agent (Continue.continue)
+2025-12-10 20:10:21.705 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-12-10 20:10:21.707 [error] [Extension Host] (node:97190) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-10 20:10:21.709 [error] [Extension Host] Failed to register Continue config.yaml schema, most likely, YAML extension is not installed CodeExpectedError: Unable to write to User Settings because yaml.schemas is not a registered configuration.
+    at Bkt.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:6793)
+    at Bkt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:9281)
+    at Bkt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3874)
+    at Object.factory (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3774)
+    at Qv.j (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75974)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75886
+    at new Promise (<anonymous>)
+    at Qv.queue (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75828)
+    at Bkt.writeConfiguration (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3743)
+    at cbn.Hb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:42702)
+2025-12-10 20:10:21.974 [error] [Extension Host] Document /home/zkh/.ssh/id_rsa.pub not found in AST tracker
+2025-12-10 20:10:22.213 [error] [Extension Host] Document /home/zkh/.ssh/id_rsa.pub not found in AST tracker
+2025-12-10 20:10:22.401 [info] [perf] Render performance baseline is 25ms
+2025-12-10 20:10:23.388 [error] [Extension Host] Document /home/zkh/.ssh/id_rsa.pub not found in AST tracker
+2025-12-10 20:10:23.469 [error] [Extension Host] Document /home/zkh/.ssh/id_rsa.pub not found in AST tracker
+2025-12-10 20:10:24.405 [error] [Extension Host] Document /home/zkh/.ssh/id_rsa.pub not found in AST tracker
+2025-12-10 20:10:24.636 [error] [Extension Host] Document /home/zkh/.ssh/id_rsa.pub not found in AST tracker
+2025-12-10 20:10:24.791 [error] [Extension Host] Document /home/zkh/.ssh/id_rsa.pub not found in AST tracker

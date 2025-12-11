@@ -1,0 +1,105 @@
+2025-12-10 15:55:59.076 [info] Started local extension host with pid 24142.
+2025-12-10 15:55:59.283 [info] [Continue.continue]: Command `continue.focusContinueInput` already registered by Continue - open-source AI code agent (Continue.continue)
+2025-12-10 15:56:01.201 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-12-10 15:56:01.203 [error] [Extension Host] (node:24142) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-10 15:56:01.205 [error] [Extension Host] Failed to register Continue config.yaml schema, most likely, YAML extension is not installed CodeExpectedError: Unable to write to User Settings because yaml.schemas is not a registered configuration.
+    at Bkt.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:6793)
+    at Bkt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:9281)
+    at Bkt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3874)
+    at Object.factory (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3774)
+    at Qv.j (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75974)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75886
+    at new Promise (<anonymous>)
+    at Qv.queue (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75828)
+    at Bkt.writeConfiguration (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:3743)
+    at cbn.Hb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3828:42702)
+2025-12-10 15:56:01.796 [info] [perf] Render performance baseline is 25ms
+2025-12-10 15:56:18.044 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:18.141 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:18.234 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:18.691 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:18.836 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:18.962 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:19.032 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:29.781 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:30.179 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:30.227 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:30.228 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:30.278 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:30.278 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:30.561 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:56:30.561 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:59:50.309 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 15:59:50.310 [error] [Extension Host] Document untitled:Untitled-1 not found in AST tracker
+2025-12-10 15:59:50.439 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:18.611 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:18.908 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:19.087 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:19.259 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:19.425 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.019 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.100 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.101 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.181 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.182 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.276 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.276 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.358 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.358 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.474 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.475 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:20.691 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:21.990 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.325 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.424 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.425 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.492 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.609 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.758 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.859 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.859 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:22.909 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:23.026 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:23.026 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:23.143 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:23.442 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:23.659 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:24.043 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:24.610 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:25.277 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:28.958 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:29.076 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:29.142 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:29.143 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:29.775 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:47.094 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:55.412 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:56.012 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:56.095 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:56.095 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:56.176 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:56.177 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.028 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.629 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.710 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.710 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.790 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.790 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.877 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.877 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.953 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:00:59.953 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:12.422 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:12.423 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.023 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.112 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.112 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.186 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.186 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.268 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.268 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.360 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.361 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.428 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker
+2025-12-10 16:01:13.429 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/custom.conf not found in AST tracker

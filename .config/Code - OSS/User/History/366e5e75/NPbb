@@ -1,0 +1,3 @@
+#rofi
+#killall fuzzel || fuzzel
+killall jiffy --m a 
