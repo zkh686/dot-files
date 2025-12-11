@@ -1,3 +1,0 @@
-#killall rofi || rofi --drun
-killall fuzzel || fuzzel
-#jiffy 
