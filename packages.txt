@@ -1,1087 +1,1091 @@
-7zip 25.01-1
-a52dec 0.8.0-2
-aalib 1.4rc5-19
-abseil-cpp 20250814.1-1
-acl 2.3.2-1
-adwaita-cursors 49.0-1
-adwaita-fonts 49.0-2
-adwaita-icon-theme 49.0-1
-adwaita-icon-theme-legacy 46.2-3
-alsa-card-profiles 1:1.4.9-2
-alsa-lib 1.2.14-2
-alsa-plugins 1:1.2.12-5
-alsa-topology-conf 1.2.5.1-4
-alsa-ucm-conf 1.2.14-2
-amd-ucode 20251125-2
-aom 3.13.1-1
-appstream 1.1.1-1
-aquamarine 0.10.0-2
-arch-simplicity-grub-theme-git r9.cf15626-1
-archlinux-keyring 20251116-1
-at-spi2-core 2.58.2-1
-atkmm 2.28.4-1
-attica 6.20.0-1
-attr 2.5.2-1
-audit 4.1.2-1
-autoconf 2.72-1
-automake 1.18.1-1
-avahi 1:0.9rc2-1
-ayatana-ido 0.10.4-1
-base 3-2
-base-devel 1-2
-bash 5.3.8-1
-bat 0.26.1-1
-bcc 0.35.0-6
-bibata-cursor-theme 2.0.7-1
-binutils 2.45.1-1
-bison 3.8.2-8
-blas 3.12.1-2
-blueman 2.4.6-1
-bluez 5.85-1
-bluez-libs 5.85-1
-boost-libs 1.89.0-3
-breeze 6.5.4-1
-breeze-icons 6.20.0-1
-brightnessctl 0.5.1-3
-brltty 6.8-5
-brotli 1.1.0-3
-btop 1.4.5-1
-btrfs-assistant 2.2-4
-btrfs-progs 6.17.1-1
-bubblewrap 0.11.0-1
-bzip2 1.0.8-6
-c-ares 1.34.5-1
-ca-certificates 20240618-1
-ca-certificates-mozilla 3.119-1
-ca-certificates-utils 20240618-1
-cairo 1.18.4-1
-cairomm 1.14.5-1
-cairomm-1.16 1.18.0-2
-cava 0.10.6-1
-cblas 3.12.1-2
-cdparanoia 10.2-9
-clang 21.1.6-1
-cliphist 1:0.7.0-1
-cmark-gfm 0.29.0.gfm.13-1
-code 1.106.3-1
-compiler-rt 21.1.6-1
-conky 1.22.2-1
-containerd 2.2.0-1
-coreutils 9.9-1
-cpio 2.15-3
-cryptsetup 2.8.1-1
-curl 8.17.0-2
-cython 3.2.2-1
-dav1d 1.5.2-1
-db5.3 5.3.28-5
-dbus 1.16.2-1
-dbus-broker 37-2
-dbus-broker-units 37-2
-dbus-glib 0.114-1
-dbus-units 37-2
-dconf 0.49.0-1
-ddcutil 2.2.3-1
-debugedit 5.2-1
-default-cursors 3-1
-desktop-file-utils 0.28-1
-device-mapper 2.03.37-1
-dgop 0.1.11-1
-diffutils 3.12-2
-dms-shell 0.6.2-1
-dms-shell-bin-debug 0.6.2-1
-dms-shell-hyprland 0.6.2-1
-docbook-xml 4.5-11
-docbook-xsl 1.79.2-9
-docker 1:29.1.1-1
-docker-compose 2.40.3-1
-dotconf 1.4.1-1
-dotnet-host 10.0.0.sdk100-1
-dotnet-runtime 10.0.0.sdk100-1
-dotnet-runtime-9.0 9.0.11.sdk112-1
-dotnet-sdk-9.0 9.0.11.sdk112-1
-dotnet-targeting-pack-9.0 9.0.11.sdk112-1
-double-conversion 3.4.0-1
-duktape 2.7.0-7
-dunst 1.13.0-1
-e2fsprogs 1.47.3-2
-easy-zsh-config 0.7.4-1
-ed 1.22.3-1
-efibootmgr 18-3
-efivar 39-1
-electron37 37.5.1-1
-electron39-bin 39.2.6-1
-ell 0.81-1
-espeak-ng 1.52.0-1
-espeakup 0.90-4
-expat 2.7.3-1
-eza 0.23.4-1
-faad2 2.11.2-1
-fakeroot 1.37.1.2-1
-fastfetch 2.56.0-1
-fcft 3.3.2-1
-festival 2.5.0-5
-ffmpeg 2:8.0.1-1
-ffmpeg4.4 4.4.6-3
-fftw 3.3.10-7
-figlet 2.2.5-6
-file 5.46-5
-filesystem 2025.10.12-1
-findutils 4.10.0-3
-firefox 146.0-1
-flac 1.5.0-1
-flex 2.6.4-5
-fmt 12.1.0-1
-fontconfig 2:2.17.1-1
-foot 1.25.0-1
-frameworkintegration 6.20.0-1
-freeglut 3.8.0-1
-freetype2 2.14.1-1
-fribidi 1.0.16-2
-fuse-common 3.17.4-1
-fuse2 2.9.9-5
-fuse3 3.17.4-1
-fuzzel 1.13.1-1
-fzf 0.67.0-1
-gauntlet-bin 21-1
-gawk 5.3.2-1
-gc 8.2.10-2
-gcc 15.2.1+r301+gf24307422d1d-1
-gcc-libs 15.2.1+r301+gf24307422d1d-1
-gconf 3.2.6+11+g07808097-15
-gcr-4 4.4.0.1-1
-gdb 16.3-1
-gdb-common 16.3-1
-gdbm 1.26-1
-gdk-pixbuf2 2.44.4-1
-gettext 0.26-1
-giflib 5.2.2-2
-git 2.52.0-2
-git-lfs 3.7.1-1
-gksu 2.0.2-6
-glib-networking 1:2.80.1-1
-glib2 2.86.3-1
-glib2-devel 2.86.3-1
-glib2-docs 2.86.3-1
-glibc 2.42+r33+gde1fe81f4714-1
-glibmm 2.66.8-1
-glibmm-2.68 2.86.0-1
-glslang 1:1.4.328.1-1
-glu 9.0.3-2
-glycin 2.0.7-1
-gmp 6.3.0-2
-gnome-desktop-4 1:44.4-1
-gnome-desktop-common 1:44.4-1
-gnome-tweaks 49.0-1
-gnu-free-fonts 20120503-8
-gnulib-l10n 20241231-1
-gnupg 2.4.8-3
-gnutls 3.8.11-2
-gobject-introspection 1.86.0-1
-gobject-introspection-runtime 1.86.0-1
-gperftools 2.17.2-1
-gpgme 2.0.1-1
-gpgmepp 2.0.0-2
-gpm 1.20.7.r38.ge82d1a6-6
-gpsd 3.27-1
-granite7 7.7.0-1
-graphene 1.10.8-2
-graphite 1:1.3.14-5
-grep 3.12-2
-grim 1.5.0-2
-grimblast-git r150.32e1a75-1
-groff 1.23.0-7
-grub 2:2.14rc1.r54.g29f3131a-2
-grub-btrfs 4.14-1
-gsettings-desktop-schemas 49.1-1
-gsettings-system-schemas 49.1-1
-gsl 2.8-1
-gsm 1.0.23-1
-gssdp 1.6.4-1
-gst-plugin-pipewire 1:1.4.9-2
-gst-plugins-bad-libs 1.26.9-1
-gst-plugins-base 1.26.9-1
-gst-plugins-base-libs 1.26.9-1
-gst-plugins-good 1.26.9-1
-gstreamer 1.26.9-1
-gtest 1.17.0-1
-gtk-doc 1.35.1-1
-gtk-layer-shell 0.10.0-1
-gtk-update-icon-cache 1:4.20.3-1
-gtk2 2.24.33-5
-gtk3 1:3.24.51-1
-gtk4 1:4.20.3-1
-gtk4-layer-shell 1.3.0-1
-gtkmm-4.0 4.20.0-1
-gtkmm3 3.24.10-1
-guile 3.0.11-1
-gum 0.17.0-1
-gupnp 1:1.6.9-1
-gupnp-igd 1.6.0-2
-guvcview 2.2.1-2
-guvcview-common 2.2.1-2
-gzip 1.14-2
-harfbuzz 12.2.0-2
-hicolor-icon-theme 0.18-1
-hidapi 0.15.0-1
-highway 1.3.0-1
-htop 3.4.1-1
-hwdata 0.402-1
-hyprcursor 0.1.13-3
-hyprgraphics 0.4.0-2
-hypridle 0.1.7-6
-hyprland 0.52.2-2
-hyprland-guiutils 0.2.0-2
-hyprlang 0.6.7-2
-hyprlock 0.9.2-7
-hyprpaper 0.7.6-4
-hyprpicker 0.4.5-8
-hyprscratch 0.6.3-1
-hyprshade 4.0.1-1
-hyprtoolkit 0.4.1-2
-hyprutils 0.11.0-1
-hyprwayland-scanner 0.4.5-1
-i2c-tools 4.4-3
-iana-etc 20251114-1
-icu 78.1-1
-imlib2 1.12.5-1
-iniparser 4.2.6-2
-inotify-tools 4.25.9.0-1
-intel-gmmlib 22.8.2-1
-intel-media-driver 25.3.4-1
-inter-font 4.1-1
-intltool 0.51.0-6
-iproute2 6.18.0-1
-iptables 1:1.8.11-2
-iputils 20250605-1
-iso-codes 4.19.0-1
-iwd 3.10-1
-jansson 2.14.1-1
-jbigkit 2.1-8
-jemalloc 1:5.3.0-5
-jq 1.8.1-1
-json-c 0.18-2
-json-glib 1.10.8-1
-jsoncpp 1.9.6-3
-karchive 6.20.0-1
-kauth 6.20.0-1
-kbd 2.9.0-1
-kbookmarks 6.20.0-1
-kcmutils 6.20.0-1
-kcodecs 6.20.0-1
-kcolorscheme 6.20.0-1
-kcompletion 6.20.0-1
-kconfig 6.20.0-1
-kconfigwidgets 6.20.0-1
-kcoreaddons 6.20.0-1
-kcrash 6.20.0-1
-kdbusaddons 6.20.0-1
-kdecoration 6.5.4-1
-keyutils 1.6.3-3
-kglobalaccel 6.20.0-1
-kguiaddons 6.20.0-1
-ki18n 6.20.0-1
-kiconthemes 6.20.0-1
-kio 6.20.0-1
-kirigami 6.20.0-1
-kitemviews 6.20.0-1
-kitty-shell-integration-git 1:0.44.0.r47.g35d95d7a4-1
-kjobwidgets 6.20.0-1
-kmod 34.2-1
-knewstuff 6.20.0-1
-knotifications 6.20.0-1
-kpackage 6.20.0-1
-krb5 1.21.3-2
-kservice 6.20.0-1
-kwallet 6.20.0-1
-kwidgetsaddons 6.20.0-1
-kwindowsystem 6.20.0-1
-kxmlgui 6.20.0-1
-l-smash 2.14.5-4
-lact 0.8.3-1
-lame 3.100-6
-lapack 3.12.1-2
-layer-shell-qt 6.5.4-1
-lcms2 2.17-1
-leancrypto 1.6.0-1
-less 1:685-1
-lib32-alsa-lib 1.2.14-2
-lib32-alsa-plugins 1.2.12-1
-lib32-audit 4.1.2-1
-lib32-brotli 1.1.0-1
-lib32-bzip2 1.0.8-4
-lib32-curl 8.17.0-1
-lib32-dbus 1.16.2-1
-lib32-e2fsprogs 1.47.3-2
-lib32-expat 2.7.3-1
-lib32-fontconfig 2:2.17.1-1
-lib32-freetype2 2.14.1-1
-lib32-gcc-libs 15.2.1+r301+gf24307422d1d-1
-lib32-glib2 2.86.3-1
-lib32-glibc 2.42+r33+gde1fe81f4714-1
-lib32-icu 78.1-2
-lib32-json-c 0.18-2
-lib32-keyutils 1.6.3-2
-lib32-krb5 1.21.3-1
-lib32-libcap 2.77-1
-lib32-libdisplay-info 0.3.0-1
-lib32-libdrm 2.4.128-1
-lib32-libelf 0.194-1
-lib32-libffi 3.5.2-1
-lib32-libgcrypt 1.11.2-1
-lib32-libglvnd 1.7.0-1
-lib32-libgpg-error 1.56-1
-lib32-libidn2 2.3.8-1
-lib32-libldap 2.6.10-1
-lib32-libnghttp2 1.68.0-1
-lib32-libnghttp3 1.13.1-1
-lib32-libnm 1.54.2-1
-lib32-libnsl 2.0.1-1
-lib32-libpciaccess 0.18.1-1
-lib32-libpipewire 1:1.4.9-1
-lib32-libpng 1.6.53-1
-lib32-libpsl 0.21.5-1
-lib32-libssh2 1.11.1-1
-lib32-libtasn1 4.20.0-1
-lib32-libtirpc 1.3.7-1
-lib32-libunistring 1.3-1
-lib32-libva 2.22.0-1
-lib32-libx11 1.8.12-2
-lib32-libxau 1.0.12-1
-lib32-libxcb 1.17.0-1
-lib32-libxcrypt 4.5.2-1
-lib32-libxcrypt-compat 4.5.2-1
-lib32-libxdmcp 1.1.5-1
-lib32-libxext 1.3.6-1
-lib32-libxfixes 6.0.1-2
-lib32-libxinerama 1.1.5-2
-lib32-libxml2 2.15.1-4
-lib32-libxshmfence 1.3.3-1
-lib32-libxss 1.2.4-2
-lib32-libxxf86vm 1.1.5-2
-lib32-llvm-libs 1:21.1.6-1
-lib32-lm_sensors 1:3.6.2-2
-lib32-mesa 1:25.3.1-2
-lib32-mesa-utils 9.0.0-4
-lib32-ncurses 6.5-2
-lib32-nspr 4.38.2-1
-lib32-nss 3.119-1
-lib32-openssl 1:3.6.0-1
-lib32-p11-kit 0.25.10-2
-lib32-pam 1.7.1-1
-lib32-pcre2 10.47-1
-lib32-pipewire 1:1.4.9-1
-lib32-spirv-tools 1:1.4.328.1-1
-lib32-sqlite 3.51.1-1
-lib32-systemd 258.2-1
-lib32-util-linux 2.41.2-1
-lib32-vulkan-icd-loader 1.4.328.1-1
-lib32-vulkan-mesa-implicit-layers 1:25.3.1-2
-lib32-vulkan-radeon 1:25.3.1-2
-lib32-wayland 1.24.0-1
-lib32-xcb-util-keysyms 0.4.1-2
-lib32-xz 5.8.1-1
-lib32-zlib 1.3.1-2
-lib32-zstd 1.5.7-2
-libadwaita 1:1.8.2-1
-libao 1.2.2-7
-libappindicator 12.10.1-1
-libarchive 3.8.4-1
-libass 0.17.4-1
-libassuan 3.0.0-1
-libasyncns 1:0.8+r3+g68cd5af-3
-libatasmart 0.19-7
-libavc1394 0.5.4-7
-libavif 1.3.0-3
-libayatana-appindicator 0.5.94-1
-libayatana-indicator 0.9.4-1
-libb2 0.98.1-3
-libblockdev 3.4.0-1
-libblockdev-crypto 3.4.0-1
-libblockdev-fs 3.4.0-1
-libblockdev-loop 3.4.0-1
-libblockdev-mdraid 3.4.0-1
-libblockdev-nvme 3.4.0-1
-libblockdev-part 3.4.0-1
-libblockdev-smart 3.4.0-1
-libblockdev-swap 3.4.0-1
-libbluray 1.4.0-2
-libbpf 1.6.2-1
-libbs2b 3.1.0-9
-libbsd 0.12.2-2
-libbytesize 2.11-1
-libcaca 0.99.beta20-5
-libcanberra 1:0.30+r2+gc0620e4-6
-libcap 2.77-1
-libcap-ng 0.8.5-3
-libcloudproviders 0.3.6-2
-libcolord 1.4.8-1
-libcups 2:2.4.16-1
-libcurl-gnutls 8.17.0-2
-libdaemon 0.14-6
-libdatrie 0.2.14-1
-libdbusmenu-glib 18.10.20180917-1
-libdbusmenu-gtk3 18.10.20180917-1
-libdecor 0.2.4-1
-libdeflate 1.25-1
-libdisplay-info 0.3.0-1
-libdovi 3.3.2-1
-libdrm 2.4.129-1
-libdv 1.0.0-11
-libdvdnav 7.0.0-1
-libdvdread 7.0.1-1
-libebur128 1.2.6-2
-libedit 20250104_3.1-1
-libei 1.5.0-1
-libelf 0.194-1
-libepoxy 1.5.10-3
-libevdev 1.13.6-1
-libevent 2.1.12-4
-libfdk-aac 2.0.3-1
-libffi 3.5.2-1
-libfontenc 1.1.8-1
-libfreeaptx 0.2.2-1
-libfyaml 0.9-1
-libgcrypt 1.11.2-1
-libgee 0.20.8-1
-libgirepository 1.86.0-1
-libgit2 1:1.9.2-1
-libgksu 2.0.12-9
-libglvnd 1.7.0-3
-libgnome-keyring 1:3.12.0+r14+g23438cc-1
-libgnomekbd 1:3.28.1-1
-libgpg-error 1.56-1
-libgtop 2.41.3-2
-libgudev 238-3
-libice 1.1.2-1
-libid3tag 0.16.3-2
-libidn2 2.3.8-1
-libiec61883 1.2.0-9
-libimagequant 4.4.1-1
-libimobiledevice 1.4.0-1
-libimobiledevice-glue 1.3.2-1
-libinih 61-1
-libinput 1.30.1-1
-libisl 0.27-1
-libjpeg-turbo 3.1.2-1
-libjxl 0.11.1-5
-libksba 1.6.7-2
-liblc3 1.1.3-1
-libldac 2.0.2.3-2
-libldap 2.6.10-2
-libliftoff 0.5.0-1
-liblouis 3.35.0-1
-libluv 1.51.0-1
-libmad 0.15.1b-10
-libmd 1.1.0-2
-libmfx 23.2.2-5
-libmm-glib 1.24.2-1
-libmnl 1.0.5-2
-libmodplug 0.8.9.0-6
-libmpc 1.3.1-2
-libmpdclient 2.23-1
-libmysofa 1.3.3-1
-libndp 1.9-1
-libnetfilter_conntrack 1.0.9-2
-libnewt 0.52.25-1
-libnfnetlink 1.0.2-2
-libnftnl 1.3.1-1
-libnghttp2 1.68.0-1
-libnghttp3 1.13.1-1
-libngtcp2 1.18.0-1
-libnice 0.1.23-1
-libnl 3.12.0-1
-libnm 1.54.2-1
-libnma 1.10.6-3
-libnma-common 1.10.6-3
-libnma-gtk4 1.10.6-3
-libnotify 0.8.7-1
-libnsl 2.0.1-1
-libnvme 1.16.1-1
-libogg 1.3.6-1
-libopenmpt 0.8.3-1
-libp11-kit 0.25.10-2
-libpcap 1.10.5-3
-libpciaccess 0.18.1-2
-libpgm 5.3.128-3
-libpipeline 1.5.8-1
-libpipewire 1:1.4.9-2
-libplacebo 7.351.0-3
-libplist 2.7.0-1
-libpng 1.6.53-1
-libproxy 0.5.12-1
-libpsl 0.21.5-2
-libpulse 17.0+r93+gbe2efb69b-1
-libqalculate 5.8.2-1
-libraqm 0.10.3-1
-libraw1394 2.1.2-4
-librsvg 2:2.61.3-1
-libsamplerate 0.2.2-3
-libsasl 2.1.28-5
-libseccomp 2.5.6-1
-libsecret 0.21.7-1
-libshout 1:2.4.6-5
-libsigc++ 2.12.1-1
-libsigc++-3.0 3.6.0-1
-libsm 1.2.6-1
-libsndfile 1.2.2-4
-libsodium 1.0.20-1
-libsonic 0.2.0-2
-libsoup3 3.6.5-1
-libsoxr 0.1.3-4
-libspeechd 0.12.1-2
-libssh 0.11.3-1
-libssh2 1.11.1-1
-libstemmer 3.0.1-1
-libsysprof-capture 49.0-1
-libtasn1 4.20.0-1
-libtatsu 1.0.5-1
-libteam 1.32-3
-libthai 0.1.29-3
-libtheora 1.2.0-1
-libtiff 4.7.1-1
-libtirpc 1.3.7-1
-libtool 2.6.0-1
-libtorrent-rasterbar 1:2.0.11-5
-libunibreak 6.1-1
-libunistring 1.3-1
-libunwind 1.8.2-1
-liburing 2.12-1
-libusb 1.0.29-1
-libusbmuxd 2.1.1-1
-libutf8proc 2.10.0-2
-libuv 1.51.0-1
-libva 2.22.0-1
-libva-intel-driver 2.4.1-5
-libvdpau 1.5-3
-libverto 0.3.2-5
-libvlc 3.0.21-32
-libvorbis 1.3.7-4
-libvpl 2.15.0-1
-libvpx 1.15.2-2
-libvterm 0.3.3-2
-libwacom 2.17.0-1
-libwebp 1.6.0-2
-libwireplumber 0.5.12-1
-libwnck3 43.3-1
-libx11 1.8.12-1
-libxau 1.0.12-1
-libxcb 1.17.0-1
-libxcomposite 0.4.6-2
-libxcrypt 4.5.2-1
-libxcrypt-compat 4.5.2-1
-libxcursor 1.2.3-1
-libxcvt 0.1.3-1
-libxdamage 1.1.6-2
-libxdmcp 1.1.5-1
-libxext 1.3.6-1
-libxfixes 6.0.2-1
-libxfont2 2.0.7-1
-libxft 2.3.9-1
-libxi 1.8.2-1
-libxinerama 1.1.5-2
-libxkbcommon 1.13.1-1
-libxkbcommon-x11 1.13.1-1
-libxkbfile 1.1.3-1
-libxklavier 5.4-7
-libxml2 2.15.1-4
-libxmlb 0.3.24-1
-libxmu 1.2.1-1
-libxnvctrl 580.105.08-1
-libxrandr 1.5.4-1
-libxrender 0.9.12-1
-libxres 1.2.3-1
-libxshmfence 1.3.3-1
-libxslt 1.1.45-1
-libxss 1.2.5-1
-libxt 1.3.1-1
-libxtst 1.2.5-1
-libxv 1.0.13-1
-libxxf86vm 1.1.6-1
-libyaml 0.2.5-3
-libyuv r2426+464c51a03-1
-libzip 1.11.4-1
-licenses 20240728-1
-lilv 0.26.2-1
-linux 6.17.9.arch1-1
-linux-api-headers 6.17-1
-linux-firmware 20251125-2
-linux-firmware-amdgpu 20251125-2
-linux-firmware-atheros 20251125-2
-linux-firmware-broadcom 20251125-2
-linux-firmware-cirrus 20251125-2
-linux-firmware-intel 20251125-2
-linux-firmware-mediatek 20251125-2
-linux-firmware-nvidia 20251125-2
-linux-firmware-other 20251125-2
-linux-firmware-radeon 20251125-2
-linux-firmware-realtek 20251125-2
-linux-firmware-whence 20251125-2
-llhttp 9.2.1-2
-llvm-libs 21.1.6-1
-lm_sensors 1:3.6.2-1
-lmdb 0.9.33-1
-lsb-release 2.0.r55.a25a4fc-1
-lshw B.02.20-1
-lsof 4.99.5-2
-lua 5.4.8-2
-lua51-lpeg 1.1.0-4
-luajit 2.1.1765228720+7152e15-1
-lv2 1.18.10-2
-ly 1.2.0-2
-lz4 1:1.10.0-2
-lzo 2.10-5
-m4 1.4.20-1
-mailcap 2.1.54-2
-make 4.4.1-2
-man-db 2.13.1-1
-man-pages 6.16-1
-mate-polkit 1.28.1-2
-matugen-git 3.0.0.r15.ge216c4b-1
-md4c 0.5.2-1
-mdadm 4.4-2
-media-player-info 26-1
-mesa 1:25.3.1-2
-mesa-utils 9.0.0-7
-meson 1.10.0-1
-minizip 1:1.3.1-2
-mkinitcpio 40-2
-mkinitcpio-busybox 1.36.1-1
-mobile-broadband-provider-info 20251101-1
-mpdecimal 4.0.1-1
-mpfr 4.2.2-1
-mpg123 1.33.3-1
-msgpack-c 6.1.0-2
-mtdev 1.1.7-1
-nano 8.7-1
-ncurses 6.5-4
-neovim 0.11.5-1
-netstandard-targeting-pack 1:2.1.0-2
-nettle 3.10.2-1
-network-manager-applet 1.36.0-1
-networkmanager 1.54.2-1
-networkmanager-openvpn 1.12.3-1
-networkmanager-vpn-plugin-openvpn 1.12.3-1
-nexusmods-app-bin 0.21.1-1
-nftables 1:1.1.6-1
-ninja 1.13.2-1
-nm-connection-editor 1.36.0-1
-node-gyp 12.1.0-1
-nodejs 25.2.1-1
-nodejs-nopt 7.2.1-1
-noto-fonts-cjk 20240730-1
-npm 11.6.4-1
-npth 1.8-1
-nspr 4.38.2-1
-nss 3.119-1
-numactl 2.0.19-1
-nwg-displays 0.3.26-1
-nwg-look 1.0.6-1
-obsidian 1.10.6-1
-ocl-icd 2.3.4-1
-oh-my-posh-bin 28.1.1-1
-oniguruma 6.9.10-1
-opencl-amd 1:7.1.1-1
-opencore-amr 0.1.6-2
-openjpeg2 2.5.4-1
-openssh 10.2p1-2
-openssl 3.6.0-1
-openssl-1.1 1.1.1.w-2
-openvpn 2.6.17-1
-opus 1.5.2-1
-opusfile 0.12-4
-orc 0.4.41-1
-orca 49.5-1
-os-prober 1.83-1
-otf-font-awesome 7.1.0-1
-p11-kit 0.25.10-2
-paccache-hook 1.2.0-1
-pacman 7.0.0.r6.gc685ae6-6
-pacman-contrib 1.13.0-1
-pacman-mirrorlist 20251021-1
-paho-mqtt-c 1.3.14-2
-pam 1.7.1-1
-pambase 20250719-1
-pamixer 1.6-3
-pango 1:1.57.0-2
-pangomm 2.46.4-1
-pangomm-2.48 2.56.1-1
-parted 3.6-2
-paru 2.1.0-1
-patch 2.8-1
-pavucontrol 1:6.2-1
-pcaudiolib 1.3-1
-pciutils 3.14.0-1
-pcre 8.45-4
-pcre2 10.47-1
-pcsclite 2.4.0-3
-perl 5.42.0-1
-perl-clone 0.47-2
-perl-encode-locale 1.05-14
-perl-error 0.17030-2
-perl-file-listing 6.16-5
-perl-html-parser 3.83-2
-perl-html-tagset 3.24-3
-perl-http-cookiejar 0.014-4
-perl-http-cookies 6.11-3
-perl-http-daemon 6.16-5
-perl-http-date 6.06-4
-perl-http-message 7.01-1
-perl-http-negotiate 6.01-15
-perl-io-html 1.004-7
-perl-libwww 6.81-1
-perl-lwp-mediatypes 6.04-7
-perl-mailtools 2.22-2
-perl-net-http 6.24-1
-perl-timedate 2.33-8
-perl-try-tiny 0.32-3
-perl-uri 5.34-1
-perl-www-robotrules 6.02-15
-perl-xml-parser 2.47-3
-pinentry 1.3.2-2
-pinta 3.0.5-2
-pipewire 1:1.4.9-2
-pipewire-alsa 1:1.4.9-2
-pipewire-audio 1:1.4.9-2
-pipewire-jack 1:1.4.9-2
-pipewire-pulse 1:1.4.9-2
-pixman 0.46.4-1
-pkcs11-helper 1.31.0-1
-pkgconf 2.5.1-1
-playerctl 2.4.1-4
-plymouth 24.004.60-14
-plymouth-theme-dark-arch 20151130-2
-polkit 126-2
-polkit-gnome 0.105-12
-polkit-qt6 0.200.0-1
-popt 1.19-2
-portaudio 1:19.7.0-3
-power-profiles-daemon 0.30-1
-powerpanel 1.4.1-3
-pps-tools 1.0.3-2
-procps-ng 4.0.5-3
-protobuf 33.1-1
-protobuf-c 1.5.2-8
-proton-vpn-daemon 0.13.4-3
-proton-vpn-gtk-app 4.13.0-1
-psmisc 23.7-1
-pugixml 1.15-2
-python 3.13.11-1
-python-aiohappyeyeballs 2.6.1-1
-python-aiohttp 3.13.2-1
-python-aiosignal 1.4.0-1
-python-attrs 25.4.0-1
-python-autocommand 2.2.2-7
-python-bcc 0.35.0-6
-python-bcrypt 5.0.0-1
-python-beautifulsoup4 4.14.3-1
-python-cairo 1.29.0-1
-python-certifi 2025.11.12-1
-python-cffi 2.0.0-1
-python-charset-normalizer 3.4.4-1
-python-click 8.2.1-1
-python-configobj 5.0.9-5
-python-cryptography 46.0.3-1
-python-dasbus 1.7-4
-python-dbus 1.4.0-1
-python-dbus-fast 2.44.3-1
-python-distro 1.9.0-3
-python-evdev 1.9.2-1
-python-fido2 2.0.0-1
-python-filelock 3.20.0-1
-python-frozenlist 1.8.0-1
-python-gnupg 0.5.5-1
-python-gobject 3.54.5-1
-python-i3ipc 2.2.1-8
-python-idna 3.11-1
-python-imageio 2.37.2-1
-python-imageio-ffmpeg 0.6.0-2
-python-importlib-metadata 8.7.0-1
-python-jaraco.classes 3.4.0-2
-python-jaraco.collections 5.1.0-1
-python-jaraco.context 6.0.1-1
-python-jaraco.functools 4.1.0-1
-python-jaraco.text 4.0.0-2
-python-jeepney 0.9.0-1
-python-jinja 1:3.1.6-1
-python-keyring 25.7.0-1
-python-lxml 6.0.2-1
-python-mako 1.3.10-1
-python-markdown 3.10.0-1
-python-markupsafe 3.0.2-1
-python-more-itertools 10.8.0-1
-python-multidict 6.7.0-1
-python-numpy 2.3.5-1
-python-packaging 25.0-1
-python-pillow 12.0.0-2
-python-pip 25.3-1
-python-platformdirs 4.5.1-1
-python-propcache 0.4.1-1
-python-proton-core 0.7.0-2
-python-proton-keyring-linux 0.2.1-2
-python-proton-vpn-api-core 4.13.2-1
-python-proton-vpn-local-agent 1.6.0-1
-python-proton-vpn-network-manager 0.13.4-2
-python-psutil 7.1.3-1
-python-pycparser 2.23-1
-python-pygments 2.19.2-1
-python-pynacl 1.6.1-1
-python-pyopenssl 25.3.0-1
-python-pyudev 0.24.3-2
-python-pywalfox 2.7.4-1
-python-pyxdg 0.28-4
-python-requests 2.32.5-1
-python-requests-file 2.1.0-2
-python-screeninfo 0.8.1-2
-python-secretstorage 3.3.3-6
-python-sentry_sdk 2.47.0-1
-python-setproctitle 1.3.7-1
-python-setuptools 1:80.9.0-2
-python-six 1.17.0-1
-python-soupsieve 2.8-1
-python-tldextract 5.3.0-1
-python-tqdm 4.67.1-2
-python-typing_extensions 4.15.0-1
-python-urllib3 2.6.1-1
-python-wheel 0.45.1-1
-python-xlib 0.33-4
-python-yaml 6.0.3-1
-python-yarl 1.22.0-1
-python-zipp 3.21.0-2
-qbittorrent 5.1.4-1
-qca-qt6 2.3.10-4
-qt5-base 5.15.18+kde+r109-2
-qt5-declarative 5.15.18+kde+r23-1
-qt5-svg 5.15.18+kde+r5-1
-qt5-translations 5.15.18-1
-qt5-wayland 5.15.18+kde+r55-1
-qt5-x11extras 5.15.18-1
-qt6-5compat 6.10.1-1
-qt6-base 6.10.1-1
-qt6-declarative 6.10.1-2
-qt6-shadertools 6.10.1-1
-qt6-svg 6.10.1-1
-qt6-translations 6.10.1-1
-qt6-wayland 6.10.1-1
-qt6ct 0.11-3
-qtkeychain-qt6 0.15.0-3
-quickshell 0.2.1-3
-radeontop 1.4-3
-rav1e 0.8.1-2
-re2 1:20240702-7
-readline 8.3.001-1
-reflector 2023-3
-ripgrep 15.1.0-1
-rtkit 0.13-3
-rubberband 4.0.0-1
-runc 1.4.0-1
-satty 0.20.0-1
-sbc 2.1-1
-sdbus-cpp 2.2.1-1
-sdl2-compat 2.32.60-1
-sdl3 3.2.28-1
-seatd 0.9.1-1
-sed 4.9-3
-semver 7.7.3-1
-serd 0.32.6-1
-shaderc 2025.4-2
-shadow 4.18.0-1
-shared-mime-info 2.4-2
-simdjson 1:4.2.2-1
-slang 2.3.3-4
-slurp 1.5.0-1
-smartmontools 7.5-1
-snapper 0.13.0-2
-snappy 1.2.2-2
-sndio 1.10.0-1
-solaar 1.1.17-1
-solid 6.20.0-1
-sord 0.16.20-1
-sound-theme-freedesktop 0.8-6
-source-highlight 3.1.9-16
-sox 14.7.0.3-1
-spdlog 1.16.0-1
-speech-dispatcher 0.12.1-2
-speex 1.2.1-2
-speexdsp 1.2.1-2
-spirv-tools 1:1.4.328.1-1
-spotify 1:1.2.77.358-1
-spotify-adblock 1:1.0.3-2
-sqlite 3.51.1-1
-sratom 0.6.20-1
-srt 1.5.4-1
-startup-notification 0.12-9
-steam 1.0.0.85-1
-sudo 1.9.17.p2-1
-svt-av1 3.1.2-1
-swaybg 1.2.1-1
-swayidle 1.9.0-1
-swaync 0.12.3-1
-swayosd 0.2.1-2
-swww 0.11.2-1
-syndication 6.20.0-1
-systemd 258.2-2
-systemd-libs 258.2-2
-systemd-sysvcompat 258.2-2
-taglib 2.1.1-1
-tar 1.35-2
-tdb 1.4.14-1
-tealdeer 1.8.1-1
-texinfo 7.2-1
-tinysparql 3.10.1-2
-tomlplusplus 3.4.0-1
-topgrade-bin 16.6.1-1
-tpm2-tss 4.1.3-1
-trashy 2.0.0-2
-tree-sitter 0.25.10-1
-tree-sitter-c 0.24.1-1
-tree-sitter-lua 0.4.0-1
-tree-sitter-markdown 0.5.1-1
-tree-sitter-query 0.7.0-1
-tree-sitter-vim 0.7.0-1
-tree-sitter-vimdoc 4.0.0-1
-tslib 1.24-1
-ttf-dejavu 2.37+18+g9b5d1b2f-7
-ttf-fira-code 6.2-2
-ttf-fira-sans 1:4.301-2
-ttf-firacode-nerd 3.4.0-1
-ttf-jetbrains-mono 2.304-2
-ttf-jetbrains-mono-nerd 3.4.0-1
-ttf-material-symbols-variable 2.874-1
-ttf-nerd-fonts-symbols 3.4.0-1
-ttf-nerd-fonts-symbols-common 3.4.0-1
-ttf-roboto 3.013-1
-twolame 0.4.0-4
-tzdata 2025b-1
-udisks2 2.11.0-1
-unibilium 2.1.2-1
-update-grub 0.0.1-8
-upower 1.91.0-1
-usbutils 019-1
-util-linux 2.41.2-1
-util-linux-libs 2.41.2-1
-uwsm 0.25.2-1
-v4l-utils 1.32.0-1
-vapoursynth 73-1
-vesktop-bin 1.6.1-1
-vicinae-git 0.16.14.r1.g32cf6b1-1
-vid.stab 1.1.1-2
-vim 9.1.1908-1
-vim-runtime 9.1.1908-1
-vimix-gtk-themes 2025.06.20-1
-vlc 3.0.21-32
-vlc-cli 3.0.21-32
-vlc-gui-qt 3.0.21-32
-vlc-plugin-a52dec 3.0.21-32
-vlc-plugin-alsa 3.0.21-32
-vlc-plugin-archive 3.0.21-32
-vlc-plugin-dav1d 3.0.21-32
-vlc-plugin-dbus 3.0.21-32
-vlc-plugin-dbus-screensaver 3.0.21-32
-vlc-plugin-faad2 3.0.21-32
-vlc-plugin-flac 3.0.21-32
-vlc-plugin-gnutls 3.0.21-32
-vlc-plugin-inflate 3.0.21-32
-vlc-plugin-journal 3.0.21-32
-vlc-plugin-jpeg 3.0.21-32
-vlc-plugin-lua 3.0.21-32
-vlc-plugin-mpg123 3.0.21-32
-vlc-plugin-ogg 3.0.21-32
-vlc-plugin-opus 3.0.21-32
-vlc-plugin-png 3.0.21-32
-vlc-plugin-pulse 3.0.21-32
-vlc-plugin-shout 3.0.21-32
-vlc-plugin-speex 3.0.21-32
-vlc-plugin-tag 3.0.21-32
-vlc-plugin-theora 3.0.21-32
-vlc-plugin-twolame 3.0.21-32
-vlc-plugin-vorbis 3.0.21-32
-vlc-plugin-vpx 3.0.21-32
-vlc-plugin-xml 3.0.21-32
-vlc-plugins-base 3.0.21-32
-vlc-plugins-video-output 3.0.21-32
-vmaf 3.0.0-1
-volume_key 0.3.12-11
-vulkan-icd-loader 1.4.328.1-1
-vulkan-intel 1:25.3.1-2
-vulkan-mesa-implicit-layers 1:25.3.1-2
-vulkan-nouveau 1:25.3.1-2
-vulkan-radeon 1:25.3.1-2
-vulkan-tools 1.4.328.1-1
-walcord 2.10-6
-wallust 3.4.0-1
-wavpack 5.8.1-1
-waybar 0.14.0-5
-wayland 1.24.0-1
-wayland-protocols 1.46-1
-waypaper 2.7-1
-webapp-manager 1.4.3-1
-webp-pixbuf-loader 0.2.7-1
-webrtc-audio-processing-1 1.3-5
-wezterm-git 20240203.110809.r787.g118802c-1
-wget 1.25.0-3
-which 2.23-1
-wireguard-tools 1.0.20250521-1
-wireless_tools 30.pre9-4
-wireplumber 0.5.12-1
-wl-clip-persist 0.5.0-1
-wl-clipboard 1:2.2.1-3
-wlogout 1.2.2-0
-wlr-randr 0.5.0-1
-wlsunset 0.4.0-1
-wmenu 0.2.0-1
-wpa_supplicant 2:2.11-3
-x264 3:0.165.r3222.b35605a-2
-x265 4.1-1
-xapp 2.8.13-1
-xcb-proto 1.17.0-3
-xcb-util 0.4.1-2
-xcb-util-cursor 0.1.6-1
-xcb-util-errors 1.0.1-2
-xcb-util-image 0.4.1-3
-xcb-util-keysyms 0.4.1-5
-xcb-util-renderutil 0.3.10-2
-xcb-util-wm 0.4.2-2
-xclip 0.13-6
-xcur2png 0.7.1-8
-xdg-desktop-portal 1.20.3-2
-xdg-desktop-portal-hyprland 1.3.11-3
-xdg-desktop-portal-wlr 0.8.1-1
-xdg-user-dirs 0.19-2
-xdg-utils 1.2.1-2
-xf86-input-libinput 1.5.0-1
-xf86-video-amdgpu 25.0.0-1
-xf86-video-ati 1:22.0.0-2
-xkeyboard-config 2.46-1
-xorg-fonts-encodings 1.1.0-1
-xorg-server 21.1.21-1
-xorg-server-common 21.1.21-1
-xorg-setxkbmap 1.3.4-2
-xorg-xauth 1.1.4-1
-xorg-xhost 1.0.10-1
-xorg-xinit 1.4.4-1
-xorg-xkbcomp 1.5.0-1
-xorg-xmodmap 1.0.11-2
-xorg-xprop 1.2.8-1
-xorg-xrandr 1.5.3-1
-xorg-xrdb 1.2.2-2
-xorg-xset 1.2.5-2
-xorg-xwayland 24.1.9-1
-xorgproto 2024.1-2
-xvidcore 1.3.7-3
-xxhash 0.8.3-1
-xz 5.8.1-1
-yazi 25.5.31-2
-yyjson 0.12.0-1
-zen-browser-bin 1.17.12b-1
-zenity 4.2.1-1
-zeromq 4.3.5-2
-zimg 3.0.6-1
-zix 0.8.0-1
-zlib 1:1.3.1-2
-zlib-ng 2.3.2-1
-zoxide 0.9.8-2
-zsh 5.9-5
-zsh-autosuggestions 0.7.1-1
-zsh-history-substring-search 1.1.0-2
-zsh-syntax-highlighting 0.8.0-1
-zstd 1.5.7-2
+7zip
+a52dec
+aalib
+abseil-cpp
+acl
+adwaita-cursors
+adwaita-fonts
+adwaita-icon-theme
+adwaita-icon-theme-legacy
+alsa-card-profiles
+alsa-lib
+alsa-plugins
+alsa-topology-conf
+alsa-ucm-conf
+amd-ucode
+aom
+appstream
+aquamarine
+arch-simplicity-grub-theme-git
+archlinux-keyring
+at-spi2-core
+atkmm
+attica
+attr
+audit
+autoconf
+automake
+avahi
+ayatana-ido
+base
+base-devel
+bash
+bat
+bcc
+bibata-cursor-theme
+binutils
+bison
+blas
+blueman
+bluez
+bluez-libs
+boost-libs
+breeze
+breeze-icons
+brightnessctl
+brltty
+brotli
+btop
+btrfs-assistant
+btrfs-progs
+bubblewrap
+bzip2
+c-ares
+ca-certificates
+ca-certificates-mozilla
+ca-certificates-utils
+cairo
+cairomm
+cairomm-1.16
+cava
+cblas
+cdparanoia
+clang
+cliphist
+cmark-gfm
+code
+compiler-rt
+conky
+containerd
+coreutils
+cpio
+cryptsetup
+curl
+cython
+dav1d
+db5.3
+dbus
+dbus-broker
+dbus-broker-units
+dbus-glib
+dbus-units
+dconf
+ddcutil
+debugedit
+default-cursors
+desktop-file-utils
+device-mapper
+dgop
+diffutils
+dms-shell
+dms-shell-bin-debug
+dms-shell-hyprland
+docbook-xml
+docbook-xsl
+docker
+docker-compose
+dotconf
+dotnet-host
+dotnet-runtime
+dotnet-runtime-9.0
+dotnet-sdk-9.0
+dotnet-targeting-pack-9.0
+double-conversion
+duktape
+dunst
+e2fsprogs
+easy-zsh-config
+ed
+efibootmgr
+efivar
+electron37
+electron39-bin
+ell
+espeak-ng
+espeakup
+expat
+eza
+faad2
+fakeroot
+fastfetch
+fcft
+festival
+ffmpeg
+ffmpeg4.4
+fftw
+figlet
+file
+filesystem
+findutils
+firefox
+flac
+flex
+fmt
+fontconfig
+foot
+frameworkintegration
+freeglut
+freetype2
+fribidi
+fuse-common
+fuse2
+fuse3
+fuzzel
+fzf
+gauntlet-bin
+gawk
+gc
+gcc
+gcc-libs
+gconf
+gcr-4
+gdb
+gdb-common
+gdbm
+gdk-pixbuf2
+gettext
+giflib
+git
+git-lfs
+gksu
+glib-networking
+glib2
+glib2-devel
+glib2-docs
+glibc
+glibmm
+glibmm-2.68
+glslang
+glu
+glycin
+gmp
+gnome-desktop-4
+gnome-desktop-common
+gnome-tweaks
+gnu-free-fonts
+gnulib-l10n
+gnupg
+gnutls
+go
+gobject-introspection
+gobject-introspection-runtime
+gperftools
+gpgme
+gpgmepp
+gpm
+gpsd
+granite7
+graphene
+graphite
+grep
+grim
+grimblast-git
+groff
+grub
+grub-btrfs
+gsettings-desktop-schemas
+gsettings-system-schemas
+gsl
+gsm
+gssdp
+gst-plugin-pipewire
+gst-plugins-bad-libs
+gst-plugins-base
+gst-plugins-base-libs
+gst-plugins-good
+gstreamer
+gtest
+gtk-doc
+gtk-layer-shell
+gtk-update-icon-cache
+gtk2
+gtk3
+gtk4
+gtk4-layer-shell
+gtkmm-4.0
+gtkmm3
+guile
+gum
+gupnp
+gupnp-igd
+guvcview
+guvcview-common
+gzip
+harfbuzz
+hicolor-icon-theme
+hidapi
+highway
+htop
+hwdata
+hyprcursor
+hyprgraphics
+hypridle
+hyprland
+hyprland-guiutils
+hyprlang
+hyprlock
+hyprpaper
+hyprpicker
+hyprscratch
+hyprshade
+hyprtoolkit
+hyprutils
+hyprwayland-scanner
+i2c-tools
+iana-etc
+icu
+imlib2
+iniparser
+inotify-tools
+intel-gmmlib
+intel-media-driver
+inter-font
+intltool
+iproute2
+iptables
+iputils
+iso-codes
+iwd
+jansson
+jbigkit
+jemalloc
+jq
+json-c
+json-glib
+jsoncpp
+karchive
+kauth
+kbd
+kbookmarks
+kcmutils
+kcodecs
+kcolorscheme
+kcompletion
+kconfig
+kconfigwidgets
+kcoreaddons
+kcrash
+kdbusaddons
+kdecoration
+keyutils
+kglobalaccel
+kguiaddons
+ki18n
+kiconthemes
+kio
+kirigami
+kitemviews
+kitty-shell-integration-git
+kjobwidgets
+kmod
+knewstuff
+knotifications
+kpackage
+krb5
+kservice
+kwallet
+kwidgetsaddons
+kwindowsystem
+kxmlgui
+l-smash
+lact
+lame
+lapack
+layer-shell-qt
+lcms2
+leancrypto
+less
+lib32-alsa-lib
+lib32-alsa-plugins
+lib32-audit
+lib32-brotli
+lib32-bzip2
+lib32-curl
+lib32-dbus
+lib32-e2fsprogs
+lib32-expat
+lib32-fontconfig
+lib32-freetype2
+lib32-gcc-libs
+lib32-glib2
+lib32-glibc
+lib32-icu
+lib32-json-c
+lib32-keyutils
+lib32-krb5
+lib32-libcap
+lib32-libdisplay-info
+lib32-libdrm
+lib32-libelf
+lib32-libffi
+lib32-libgcrypt
+lib32-libglvnd
+lib32-libgpg-error
+lib32-libidn2
+lib32-libldap
+lib32-libnghttp2
+lib32-libnghttp3
+lib32-libnm
+lib32-libnsl
+lib32-libpciaccess
+lib32-libpipewire
+lib32-libpng
+lib32-libpsl
+lib32-libssh2
+lib32-libtasn1
+lib32-libtirpc
+lib32-libunistring
+lib32-libva
+lib32-libx11
+lib32-libxau
+lib32-libxcb
+lib32-libxcrypt
+lib32-libxcrypt-compat
+lib32-libxdmcp
+lib32-libxext
+lib32-libxfixes
+lib32-libxinerama
+lib32-libxml2
+lib32-libxshmfence
+lib32-libxss
+lib32-libxxf86vm
+lib32-llvm-libs
+lib32-lm_sensors
+lib32-mesa
+lib32-mesa-utils
+lib32-ncurses
+lib32-nspr
+lib32-nss
+lib32-openssl
+lib32-p11-kit
+lib32-pam
+lib32-pcre2
+lib32-pipewire
+lib32-spirv-tools
+lib32-sqlite
+lib32-systemd
+lib32-util-linux
+lib32-vulkan-icd-loader
+lib32-vulkan-mesa-implicit-layers
+lib32-vulkan-radeon
+lib32-wayland
+lib32-xcb-util-keysyms
+lib32-xz
+lib32-zlib
+lib32-zstd
+libadwaita
+libao
+libappindicator
+libarchive
+libass
+libassuan
+libasyncns
+libatasmart
+libavc1394
+libavif
+libayatana-appindicator
+libayatana-indicator
+libb2
+libblockdev
+libblockdev-crypto
+libblockdev-fs
+libblockdev-loop
+libblockdev-mdraid
+libblockdev-nvme
+libblockdev-part
+libblockdev-smart
+libblockdev-swap
+libbluray
+libbpf
+libbs2b
+libbsd
+libbytesize
+libcaca
+libcanberra
+libcap
+libcap-ng
+libcloudproviders
+libcolord
+libcups
+libcurl-gnutls
+libdaemon
+libdatrie
+libdbusmenu-glib
+libdbusmenu-gtk3
+libdecor
+libdeflate
+libdisplay-info
+libdovi
+libdrm
+libdv
+libdvdnav
+libdvdread
+libebur128
+libedit
+libei
+libelf
+libepoxy
+libevdev
+libevent
+libfdk-aac
+libffi
+libfontenc
+libfreeaptx
+libfyaml
+libgcrypt
+libgee
+libgirepository
+libgit2
+libgksu
+libglvnd
+libgnome-keyring
+libgnomekbd
+libgpg-error
+libgtop
+libgudev
+libice
+libid3tag
+libidn2
+libiec61883
+libimagequant
+libimobiledevice
+libimobiledevice-glue
+libinih
+libinput
+libisl
+libjpeg-turbo
+libjxl
+libksba
+liblc3
+libldac
+libldap
+libliftoff
+liblouis
+libluv
+libmad
+libmd
+libmfx
+libmm-glib
+libmnl
+libmodplug
+libmpc
+libmpdclient
+libmysofa
+libndp
+libnetfilter_conntrack
+libnewt
+libnfnetlink
+libnftnl
+libnghttp2
+libnghttp3
+libngtcp2
+libnice
+libnl
+libnm
+libnma
+libnma-common
+libnma-gtk4
+libnotify
+libnsl
+libnvme
+libogg
+libopenmpt
+libp11-kit
+libpcap
+libpciaccess
+libpgm
+libpipeline
+libpipewire
+libplacebo
+libplist
+libpng
+libproxy
+libpsl
+libpulse
+libqalculate
+libraqm
+libraw1394
+librsvg
+libsamplerate
+libsasl
+libseccomp
+libsecret
+libshout
+libsigc++
+libsigc++-3.0
+libsm
+libsndfile
+libsodium
+libsonic
+libsoup3
+libsoxr
+libspeechd
+libssh
+libssh2
+libstemmer
+libsysprof-capture
+libtasn1
+libtatsu
+libteam
+libthai
+libtheora
+libtiff
+libtirpc
+libtool
+libtorrent-rasterbar
+libunibreak
+libunistring
+libunwind
+liburing
+libusb
+libusbmuxd
+libutf8proc
+libuv
+libva
+libva-intel-driver
+libvdpau
+libverto
+libvlc
+libvorbis
+libvpl
+libvpx
+libvterm
+libwacom
+libwebp
+libwireplumber
+libwnck3
+libx11
+libxau
+libxcb
+libxcomposite
+libxcrypt
+libxcrypt-compat
+libxcursor
+libxcvt
+libxdamage
+libxdmcp
+libxext
+libxfixes
+libxfont2
+libxft
+libxi
+libxinerama
+libxkbcommon
+libxkbcommon-x11
+libxkbfile
+libxklavier
+libxml2
+libxmlb
+libxmu
+libxnvctrl
+libxrandr
+libxrender
+libxres
+libxshmfence
+libxslt
+libxss
+libxt
+libxtst
+libxv
+libxxf86vm
+libyaml
+libyuv
+libzip
+licenses
+lilv
+linux
+linux-api-headers
+linux-firmware
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-nvidia
+linux-firmware-other
+linux-firmware-radeon
+linux-firmware-realtek
+linux-firmware-whence
+lld
+llhttp
+llvm-libs
+lm_sensors
+lmdb
+lsb-release
+lshw
+lsof
+lua
+lua51-lpeg
+luajit
+lv2
+ly
+lz4
+lzo
+m4
+mailcap
+make
+man-db
+man-pages
+mate-polkit
+matugen-git
+md4c
+mdadm
+media-player-info
+mesa
+mesa-utils
+meson
+minizip
+mkinitcpio
+mkinitcpio-busybox
+mobile-broadband-provider-info
+mpdecimal
+mpfr
+mpg123
+msgpack-c
+mtdev
+nano
+ncurses
+neovim
+netstandard-targeting-pack
+nettle
+network-manager-applet
+networkmanager
+networkmanager-openvpn
+networkmanager-vpn-plugin-openvpn
+nexusmods-app-bin
+nftables
+ninja
+nm-connection-editor
+node-gyp
+nodejs
+nodejs-nopt
+noto-fonts-cjk
+npm
+npth
+nspr
+nss
+numactl
+nwg-displays
+nwg-look
+obsidian
+ocl-icd
+oh-my-posh-bin
+oniguruma
+opencl-amd
+opencore-amr
+openjpeg2
+openssh
+openssl
+openssl-1.1
+openvpn
+opus
+opusfile
+orc
+orca
+os-prober
+otf-font-awesome
+p11-kit
+paccache-hook
+pacman
+pacman-contrib
+pacman-mirrorlist
+paho-mqtt-c
+pam
+pambase
+pamixer
+pango
+pangomm
+pangomm-2.48
+parted
+paru
+patch
+pavucontrol
+pcaudiolib
+pciutils
+pcre
+pcre2
+pcsclite
+perl
+perl-clone
+perl-encode-locale
+perl-error
+perl-file-listing
+perl-html-parser
+perl-html-tagset
+perl-http-cookiejar
+perl-http-cookies
+perl-http-daemon
+perl-http-date
+perl-http-message
+perl-http-negotiate
+perl-io-html
+perl-libwww
+perl-lwp-mediatypes
+perl-mailtools
+perl-net-http
+perl-timedate
+perl-try-tiny
+perl-uri
+perl-www-robotrules
+perl-xml-parser
+pinentry
+pinta
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pipewire-pulse
+pixman
+pkcs11-helper
+pkgconf
+playerctl
+plymouth
+plymouth-theme-dark-arch
+polkit
+polkit-gnome
+polkit-qt6
+popt
+portaudio
+power-profiles-daemon
+powerpanel
+pps-tools
+procps-ng
+protobuf
+protobuf-c
+proton-vpn-daemon
+proton-vpn-gtk-app
+psmisc
+pugixml
+python
+python-aiohappyeyeballs
+python-aiohttp
+python-aiosignal
+python-attrs
+python-autocommand
+python-bcc
+python-bcrypt
+python-beautifulsoup4
+python-cairo
+python-certifi
+python-cffi
+python-charset-normalizer
+python-click
+python-configobj
+python-cryptography
+python-dasbus
+python-dbus
+python-dbus-fast
+python-distro
+python-evdev
+python-fido2
+python-filelock
+python-frozenlist
+python-gnupg
+python-gobject
+python-i3ipc
+python-idna
+python-imageio
+python-imageio-ffmpeg
+python-importlib-metadata
+python-jaraco.classes
+python-jaraco.collections
+python-jaraco.context
+python-jaraco.functools
+python-jaraco.text
+python-jeepney
+python-jinja
+python-keyring
+python-lxml
+python-mako
+python-markdown
+python-markupsafe
+python-more-itertools
+python-multidict
+python-numpy
+python-packaging
+python-pillow
+python-pip
+python-platformdirs
+python-propcache
+python-proton-core
+python-proton-keyring-linux
+python-proton-vpn-api-core
+python-proton-vpn-local-agent
+python-proton-vpn-network-manager
+python-psutil
+python-pycparser
+python-pygments
+python-pynacl
+python-pyopenssl
+python-pyudev
+python-pywalfox
+python-pyxdg
+python-requests
+python-requests-file
+python-screeninfo
+python-secretstorage
+python-sentry_sdk
+python-setproctitle
+python-setuptools
+python-six
+python-soupsieve
+python-tldextract
+python-tqdm
+python-typing_extensions
+python-urllib3
+python-wheel
+python-xlib
+python-yaml
+python-yarl
+python-zipp
+qbittorrent
+qca-qt6
+qt5-base
+qt5-declarative
+qt5-svg
+qt5-translations
+qt5-wayland
+qt5-x11extras
+qt6-5compat
+qt6-base
+qt6-declarative
+qt6-shadertools
+qt6-svg
+qt6-translations
+qt6-wayland
+qt6ct
+qtkeychain-qt6
+quickshell
+radeontop
+rav1e
+re2
+readline
+reflector
+ripgrep
+rtkit
+rubberband
+runc
+rust
+satty
+sbc
+sdbus-cpp
+sdl2-compat
+sdl3
+seatd
+sed
+semver
+serd
+shaderc
+shadow
+shared-mime-info
+simdjson
+slang
+slurp
+smartmontools
+snapper
+snappy
+sndio
+solaar
+solid
+sord
+sound-theme-freedesktop
+source-highlight
+sox
+spdlog
+speech-dispatcher
+speex
+speexdsp
+spirv-tools
+spotify
+spotify-adblock
+sqlite
+sratom
+srt
+startup-notification
+steam
+sudo
+svt-av1
+swaybg
+swayidle
+swaync
+swayosd
+swww
+syndication
+systemd
+systemd-libs
+systemd-sysvcompat
+taglib
+tar
+tdb
+tealdeer
+texinfo
+tinysparql
+tomlplusplus
+topgrade-bin
+tpm2-tss
+trashy
+tree-sitter
+tree-sitter-c
+tree-sitter-lua
+tree-sitter-markdown
+tree-sitter-query
+tree-sitter-vim
+tree-sitter-vimdoc
+tslib
+ttf-dejavu
+ttf-fira-code
+ttf-fira-sans
+ttf-firacode-nerd
+ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
+ttf-material-symbols-variable
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-common
+ttf-roboto
+twolame
+tzdata
+udisks2
+unibilium
+update-grub
+upower
+usbutils
+util-linux
+util-linux-libs
+uwsm
+v4l-utils
+vapoursynth
+vesktop-bin
+vicinae-git
+vid.stab
+vim
+vim-runtime
+vimix-gtk-themes
+vlc
+vlc-cli
+vlc-gui-qt
+vlc-plugin-a52dec
+vlc-plugin-alsa
+vlc-plugin-archive
+vlc-plugin-dav1d
+vlc-plugin-dbus
+vlc-plugin-dbus-screensaver
+vlc-plugin-faad2
+vlc-plugin-flac
+vlc-plugin-gnutls
+vlc-plugin-inflate
+vlc-plugin-journal
+vlc-plugin-jpeg
+vlc-plugin-lua
+vlc-plugin-mpg123
+vlc-plugin-ogg
+vlc-plugin-opus
+vlc-plugin-png
+vlc-plugin-pulse
+vlc-plugin-shout
+vlc-plugin-speex
+vlc-plugin-tag
+vlc-plugin-theora
+vlc-plugin-twolame
+vlc-plugin-vorbis
+vlc-plugin-vpx
+vlc-plugin-xml
+vlc-plugins-base
+vlc-plugins-video-output
+vmaf
+volume_key
+vulkan-icd-loader
+vulkan-intel
+vulkan-mesa-implicit-layers
+vulkan-nouveau
+vulkan-radeon
+vulkan-tools
+walcord
+wallust
+wavpack
+waybar
+wayland
+wayland-protocols
+waypaper
+webapp-manager
+webp-pixbuf-loader
+webrtc-audio-processing-1
+wezterm-git
+wget
+which
+wireguard-tools
+wireless_tools
+wireplumber
+wl-clip-persist
+wl-clipboard
+wlogout
+wlr-randr
+wlsunset
+wmenu
+wpa_supplicant
+x264
+x265
+xapp
+xapp-symbolic-icons
+xcb-proto
+xcb-util
+xcb-util-cursor
+xcb-util-errors
+xcb-util-image
+xcb-util-keysyms
+xcb-util-renderutil
+xcb-util-wm
+xclip
+xcur2png
+xdg-desktop-portal
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-wlr
+xdg-user-dirs
+xdg-utils
+xf86-input-libinput
+xf86-video-amdgpu
+xf86-video-ati
+xkeyboard-config
+xorg-fonts-encodings
+xorg-server
+xorg-server-common
+xorg-setxkbmap
+xorg-xauth
+xorg-xhost
+xorg-xinit
+xorg-xkbcomp
+xorg-xmodmap
+xorg-xprop
+xorg-xrandr
+xorg-xrdb
+xorg-xset
+xorg-xwayland
+xorgproto
+xvidcore
+xxhash
+xz
+yazi
+yyjson
+zen-browser-bin
+zenity
+zeromq
+zimg
+zix
+zlib
+zlib-ng
+zoxide
+zsh
+zsh-autosuggestions
+zsh-history-substring-search
+zsh-syntax-highlighting
+zstd
