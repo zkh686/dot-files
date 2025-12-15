@@ -2,6 +2,7 @@
 a52dec
 aalib
 abseil-cpp
+accountsservice
 acl
 adwaita-cursors
 adwaita-fonts
@@ -60,8 +61,10 @@ cairomm-1.16
 cava
 cblas
 cdparanoia
+cinnamon-desktop
 clang
 cliphist
+cmake
 cmark-gfm
 code
 compiler-rt
@@ -69,6 +72,7 @@ conky
 containerd
 coreutils
 cpio
+cppdap
 cryptsetup
 curl
 cython
@@ -88,7 +92,6 @@ device-mapper
 dgop
 diffutils
 dms-shell
-dms-shell-bin-debug
 dms-shell-hyprland
 docbook-xml
 docbook-xsl
@@ -113,6 +116,7 @@ electron39-bin
 ell
 espeak-ng
 espeakup
+exempi
 expat
 eza
 faad2
@@ -220,6 +224,7 @@ gupnp
 gupnp-igd
 guvcview
 guvcview-common
+gvfs
 gzip
 harfbuzz
 hicolor-icon-theme
@@ -414,6 +419,8 @@ libcaca
 libcanberra
 libcap
 libcap-ng
+libcdio
+libcdio-paranoia
 libcloudproviders
 libcolord
 libcups
@@ -437,6 +444,7 @@ libelf
 libepoxy
 libevdev
 libevent
+libexif
 libfdk-aac
 libffi
 libfontenc
@@ -473,6 +481,7 @@ libliftoff
 liblouis
 libluv
 libmad
+libmakepkg-dropins
 libmd
 libmfx
 libmm-glib
@@ -551,6 +560,8 @@ libusb
 libusbmuxd
 libutf8proc
 libuv
+libuvc
+libuvc-debug
 libva
 libva-intel-driver
 libvdpau
@@ -656,6 +667,7 @@ msgpack-c
 mtdev
 nano
 ncurses
+nemo
 neovim
 netstandard-targeting-pack
 nettle
@@ -708,7 +720,6 @@ pango
 pangomm
 pangomm-2.48
 parted
-paru
 patch
 pavucontrol
 pcaudiolib
@@ -860,8 +871,11 @@ qt5-x11extras
 qt6-5compat
 qt6-base
 qt6-declarative
+qt6-multimedia
+qt6-multimedia-ffmpeg
 qt6-shadertools
 qt6-svg
+qt6-tools
 qt6-translations
 qt6-wayland
 qt6ct
@@ -872,6 +886,7 @@ rav1e
 re2
 readline
 reflector
+rhash
 ripgrep
 rtkit
 rubberband
@@ -1018,6 +1033,8 @@ wayland
 wayland-protocols
 waypaper
 webapp-manager
+webcamoid
+webcamoid-debug
 webp-pixbuf-loader
 webrtc-audio-processing-1
 wezterm-git
@@ -1074,6 +1091,8 @@ xorgproto
 xvidcore
 xxhash
 xz
+yay
+yay-debug
 yazi
 yyjson
 zen-browser-bin
