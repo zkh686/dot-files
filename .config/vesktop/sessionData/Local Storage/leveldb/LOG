@@ -1,12 +1,12 @@
-2025/12/10-17:49:21.610 15e8 Reusing MANIFEST /home/zkh/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/12/10-17:49:21.613 15e8 Recovering log #152
-2025/12/10-17:49:21.614 15e8 Reusing old log /home/zkh/.config/vesktop/sessionData/Local Storage/leveldb/000152.log 
-2025/12/10-18:08:34.066 15e7 Level-0 table #157: started
-2025/12/10-18:08:34.070 15e7 Level-0 table #157: 60913 bytes OK
-2025/12/10-18:08:34.077 15e7 Delete type=0 #152
-2025/12/10-18:14:52.855 15e7 Level-0 table #159: started
-2025/12/10-18:14:52.874 15e7 Level-0 table #159: 51390 bytes OK
-2025/12/10-18:14:52.881 15e7 Delete type=0 #156
-2025/12/10-19:45:20.935 15e7 Level-0 table #161: started
-2025/12/10-19:45:20.940 15e7 Level-0 table #161: 53088 bytes OK
-2025/12/10-19:45:20.947 15e7 Delete type=0 #158
+2025/12/16-14:42:47.673 10f7 Reusing MANIFEST /home/zkh/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/12/16-14:42:47.677 10f7 Recovering log #205
+2025/12/16-14:42:47.677 10f7 Reusing old log /home/zkh/.config/vesktop/sessionData/Local Storage/leveldb/000205.log 
+2025/12/16-14:47:59.044 10f6 Level-0 table #210: started
+2025/12/16-14:47:59.049 10f6 Level-0 table #210: 57667 bytes OK
+2025/12/16-14:47:59.056 10f6 Delete type=0 #205
+2025/12/16-16:50:35.160 10f6 Level-0 table #212: started
+2025/12/16-16:50:35.165 10f6 Level-0 table #212: 58490 bytes OK
+2025/12/16-16:50:35.172 10f6 Delete type=0 #209
+2025/12/17-14:05:39.404 10f6 Level-0 table #214: started
+2025/12/17-14:05:39.409 10f6 Level-0 table #214: 49190 bytes OK
+2025/12/17-14:05:39.416 10f6 Delete type=0 #211

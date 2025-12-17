@@ -1,2 +1,0 @@
-#gnome-text-editor
-code

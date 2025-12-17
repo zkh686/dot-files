@@ -1,1 +1,0 @@
-$(cat ~/.config/ml4w/settings/browser.sh) --new-window http://0.0.0.0:3000/
