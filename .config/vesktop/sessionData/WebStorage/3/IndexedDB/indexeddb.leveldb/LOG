@@ -1,7 +1,0 @@
-2025/12/04-18:41:12.327 5be0 Reusing MANIFEST /home/zkh/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/12/04-18:41:12.328 5be0 Recovering log #3
-2025/12/04-18:41:12.328 5be0 Reusing old log /home/zkh/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb/000003.log 
-2025/12/04-19:00:29.872 5be0 Level-0 table #5: started
-2025/12/04-19:00:29.876 5be0 Level-0 table #5: 829 bytes OK
-2025/12/04-19:00:29.883 5be0 Delete type=0 #3
-2025/12/04-19:00:29.883 5be0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
