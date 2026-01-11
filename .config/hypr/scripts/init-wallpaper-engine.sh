@@ -7,8 +7,9 @@
 #                                 |___/
 #
 
+
 wallpaper_engine=$(cat $HOME/.config/ml4w/settings/wallpaper-engine.sh)
-if [ "$wallpaper_engine" == "swww" ]; then
+ if [ "$wallpaper_engine" == "swww" ]; then
     # swww
     echo ":: Using swww"
     swww init

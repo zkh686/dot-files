@@ -7,7 +7,7 @@
   "popupTransparency": 1,
   "dockTransparency": 1,
   "widgetBackgroundColor": "sch",
-  "widgetColorMode": "default",
+  "widgetColorMode": "colorful",
   "cornerRadius": 12,
   "use24HourClock": true,
   "showSeconds": false,
@@ -15,7 +15,7 @@
   "nightModeEnabled": false,
   "animationSpeed": 1,
   "customAnimationDuration": 500,
-  "wallpaperFillMode": "Fit",
+  "wallpaperFillMode": "Fill",
   "blurredWallpaperLayer": false,
   "blurWallpaperOnOverview": false,
   "showLauncherButton": true,
@@ -91,12 +91,12 @@
     }
   ],
   "showWorkspaceIndex": true,
-  "showWorkspacePadding": false,
+  "showWorkspacePadding": true,
   "workspaceScrolling": false,
   "showWorkspaceApps": false,
   "maxWorkspaceIcons": 3,
-  "workspacesPerMonitor": true,
-  "showOccupiedWorkspacesOnly": false,
+  "workspacesPerMonitor": false,
+  "showOccupiedWorkspacesOnly": true,
   "dwlShowAllTags": false,
   "workspaceNameIcons": {},
   "waveProgressEnabled": true,
@@ -111,7 +111,7 @@
   "clockDateFormat": "",
   "lockDateFormat": "",
   "mediaSize": 1,
-  "appLauncherViewMode": "grid",
+  "appLauncherViewMode": "list",
   "spotlightModalViewMode": "list",
   "sortAppsAlphabetically": false,
   "appLauncherGridColumns": 4,
@@ -122,7 +122,7 @@
   "useAutoLocation": true,
   "weatherEnabled": true,
   "networkPreference": "auto",
-  "vpnLastConnected": "b135cc6c-a251-4ffd-b46d-4bf9b1f627ee",
+  "vpnLastConnected": "1d1206fb-b049-40b7-9bd6-3b36ffb717d7",
   "iconTheme": "System Default",
   "launcherLogoMode": "os",
   "launcherLogoCustomPath": "",
@@ -141,7 +141,7 @@
   "notepadShowLineNumbers": false,
   "notepadTransparencyOverride": -1,
   "notepadLastCustomTransparency": 0.7,
-  "soundsEnabled": true,
+  "soundsEnabled": false,
   "useSystemSoundTheme": false,
   "soundNewNotification": true,
   "soundVolumeChanged": true,
@@ -186,9 +186,9 @@
   "dockBorderThickness": 1,
   "notificationOverlayEnabled": false,
   "modalDarkenBackground": true,
-  "lockScreenShowPowerActions": false,
+  "lockScreenShowPowerActions": true,
   "enableFprint": false,
-  "maxFprintTries": 3,
+  "maxFprintTries": 15,
   "lockScreenActiveMonitor": "all",
   "lockScreenInactiveColor": "#000000",
   "hideBrightnessSlider": false,
@@ -204,7 +204,7 @@
   "osdIdleInhibitorEnabled": true,
   "osdMicMuteEnabled": true,
   "osdCapsLockEnabled": true,
-  "osdPowerProfileEnabled": true,
+  "osdPowerProfileEnabled": false,
   "osdAudioOutputEnabled": true,
   "powerActionConfirm": true,
   "powerActionHoldDuration": 0.5,
@@ -212,6 +212,8 @@
     "reboot",
     "logout",
     "poweroff",
+    "lock",
+    "suspend",
     "restart"
   ],
   "powerMenuDefaultAction": "logout",
@@ -222,26 +224,16 @@
   "customPowerActionHibernate": "",
   "customPowerActionReboot": "",
   "customPowerActionPowerOff": "",
-  "updaterUseCustomCommand": true,
-  "updaterCustomCommand": "yay -Syu",
+  "updaterUseCustomCommand": false,
+  "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
-  "displayNameMode": "model",
+  "displayNameMode": "system",
   "screenPreferences": {
-    "dankBar": [
-      {
-        "name": "DP-1",
-        "model": "LG Ultra HD"
-      }
-    ],
-    "dock": [],
     "wallpaper": [
       "all"
     ]
   },
-  "showOnLastDisplay": {
-    "dankBar": true,
-    "dock": false
-  },
+  "showOnLastDisplay": {},
   "barConfigs": [
     {
       "id": "default",
@@ -256,46 +248,21 @@
       ],
       "showOnLastDisplay": true,
       "leftWidgets": [
-        "launcherButton",
         "workspaceSwitcher",
         "focusedWindow"
       ],
       "centerWidgets": [
+        "music",
         "clock",
-        {
-          "id": "weather",
-          "enabled": true
-        }
+        "weather"
       ],
       "rightWidgets": [
-        {
-          "id": "systemUpdate",
-          "enabled": true
-        },
-        {
-          "id": "systemTray",
-          "enabled": true
-        },
-        {
-          "id": "clipboard",
-          "enabled": true
-        },
-        {
-          "id": "cpuUsage",
-          "enabled": true
-        },
-        {
-          "id": "memUsage",
-          "enabled": true
-        },
-        {
-          "id": "notificationButton",
-          "enabled": true
-        },
-        {
-          "id": "controlCenterButton",
-          "enabled": true
-        }
+        "systemTray",
+        "clipboard",
+        "cpuUsage",
+        "memUsage",
+        "notificationButton",
+        "controlCenterButton"
       ],
       "spacing": 4,
       "innerPadding": 4,
@@ -303,7 +270,7 @@
       "transparency": 1,
       "widgetTransparency": 1,
       "squareCorners": false,
-      "noBackground": true,
+      "noBackground": false,
       "gothCornersEnabled": false,
       "gothCornerRadiusOverride": false,
       "gothCornerRadiusValue": 12,
@@ -311,13 +278,18 @@
       "borderColor": "surfaceText",
       "borderOpacity": 1,
       "borderThickness": 1,
+      "widgetOutlineEnabled": false,
+      "widgetOutlineColor": "primary",
+      "widgetOutlineOpacity": 1,
+      "widgetOutlineThickness": 1,
       "fontScale": 1,
       "autoHide": false,
       "autoHideDelay": 250,
       "openOnOverview": false,
       "visible": true,
       "popupGapsAuto": true,
-      "popupGapsManual": 4
+      "popupGapsManual": 4,
+      "maximizeDetection": true
     }
   ],
   "configVersion": 2

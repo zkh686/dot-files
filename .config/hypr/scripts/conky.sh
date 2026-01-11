@@ -1,1 +1,3 @@
-sleep 1 && conky &
+
+hyprctl dispatch movetoworkspace 10 DP-2
+conky &

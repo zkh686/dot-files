@@ -1,1 +1,0 @@
-sleep 5 & ollama run deepseek-coder-v2:16b
