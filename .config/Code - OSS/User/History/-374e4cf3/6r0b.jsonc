@@ -1,0 +1,64 @@
+To create a FastFetch configuration file that displays information about your CPU, GPU, OS, Window Manager (WM), Shell, Terminal, as well as the counts of Pacman and Flatpak packages, you can use a combination of shell commands to gather this information. Below is an example configuration file (`fastfetch-config.conf`) that accomplishes this:
+
+```sh
+# fastfetch-config.conf
+# Configuration for FastFetch to display system information
+
+# Show CPU Information
+cpu {
+    show = true
+}
+
+# Show GPU Information
+gpu {
+    show = true
+}
+
+# Show Operating System Information
+os {
+    show = true
+}
+
+# Show Window Manager Information
+wm {
+    show = true
+}
+
+# Show Shell Information
+shell {
+    show = true
+}
+
+# Show Terminal Information
+terminal {
+    show = true
+}
+
+# Custom section to display package counts
+packages {
+    show = true
+    pacman {
+        command = "pacman -Q | wc -l"
+        label = "Pacman Packages: {}"
+    }
+    flatpak {
+        command = "flatpak list --installed | wc -l"
+        label = "Flatpak Packages: {}"
+    }
+}
+```
+
+### Explanation:
+1. **CPU and GPU Information**: These are displayed by default with `show = true`.
+2. **OS, WM, Shell, Terminal**: Also shown by setting `show = true` for each section.
+3. **Custom Section (`packages`)**: 
+   - `show = true`: Ensures this section is displayed.
+   - **Pacman Packages**:
+     - `command = "pacman -Q | wc -l"`: This command lists all installed packages and pipes the output to `wc -l` to count them.
+     - `label = "Pacman Packages: {}"`: This sets the format string for displaying the package count.
+   - **Flatpak Packages**:
+     - `command = "flatpak list --installed | wc -l"`: Lists all installed Flatpak packages and counts them.
+     - `label = "Flatpak Packages: {}"`: Sets the format string for displaying the Flatpak package count.
+
+### Usage:
+

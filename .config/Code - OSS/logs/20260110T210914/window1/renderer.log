@@ -1,0 +1,154 @@
+2026-01-10 21:09:15.335 [info] Started local extension host with pid 94208.
+2026-01-10 21:09:15.534 [info] [Continue.continue]: Command `continue.focusContinueInput` already registered by Continue - open-source AI code agent (Continue.continue)
+2026-01-10 21:09:17.191 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2026-01-10 21:09:17.193 [error] [Extension Host] (node:94208) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-10 21:09:17.216 [error] [Extension Host] Failed to register Continue config.yaml schema, most likely, YAML extension is not installed CodeExpectedError: Unable to write to User Settings because yaml.schemas is not a registered configuration.
+    at rEt.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3853:6793)
+    at rEt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3853:9281)
+    at rEt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3853:3874)
+    at Object.factory (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3853:3774)
+    at lw.j (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75972)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75884
+    at new Promise (<anonymous>)
+    at lw.queue (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:75826)
+    at rEt.writeConfiguration (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3853:3743)
+    at _Cn.Hb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3853:42703)
+2026-01-10 21:09:18.080 [info] [perf] Render performance baseline is 21ms
+2026-01-10 21:09:18.287 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:18.476 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:18.776 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:18.777 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:18.940 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:19.073 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:19.156 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:19.289 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:19.456 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:21.945 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:30.155 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:30.709 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:32.572 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:33.232 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:33.408 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:33.525 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:33.701 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:34.309 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:41.460 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:58.060 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:58.312 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:58.454 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:59.302 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:59.580 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:59.727 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:59.826 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:09:59.952 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:00.080 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:01.741 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:02.143 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:04.409 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:09.251 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:18.971 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:19.098 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:19.210 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:19.436 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:19.868 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:20.081 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:20.213 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:47.012 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:47.221 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:47.300 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:47.534 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:47.715 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:47.838 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:47.945 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:48.064 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:48.230 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:52.610 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:10:52.724 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:02.706 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:07.920 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:08.062 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:08.155 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:08.423 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:09.136 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:09.439 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:09.612 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:09.797 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:10.046 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:10.242 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:10.542 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:10.750 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:20.468 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:23.444 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:23.649 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:23.698 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:23.780 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:23.864 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:24.382 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:29.073 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:30.657 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:32.711 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.035 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.035 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.635 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.730 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.731 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.798 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.798 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.879 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.879 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.964 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:37.964 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:38.041 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:38.042 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:38.130 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:38.131 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:38.314 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:38.665 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.265 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.347 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.347 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.428 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.428 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.509 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.510 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.709 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:39.710 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.309 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.397 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.397 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.473 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.473 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.554 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.555 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.647 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:40.647 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:41.057 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:41.058 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:41.521 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:41.869 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:46.734 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:47.048 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:47.326 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:47.498 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:47.618 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:47.922 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:48.024 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:48.227 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:48.424 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:48.622 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:11:48.856 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:28.480 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:28.545 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:28.700 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:28.836 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:28.978 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:29.085 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:29.210 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:29.463 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:29.568 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:29.827 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:30.448 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:30.657 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:30.807 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker
+2026-01-10 21:12:30.990 [error] [Extension Host] Document /home/zkh/.config/hypr/conf/keybindings/default.conf not found in AST tracker

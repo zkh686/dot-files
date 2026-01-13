@@ -1,0 +1,14 @@
+2026/01/13-14:20:27.364 1563 Reusing MANIFEST /home/zkh/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/01/13-14:20:27.370 1563 Recovering log #367
+2026/01/13-14:20:27.371 1563 Level-0 table #370: started
+2026/01/13-14:20:27.376 1563 Level-0 table #370: 36313 bytes OK
+2026/01/13-14:20:27.382 1563 Delete type=0 #367
+2026/01/13-14:20:27.382 148a Compacting 4@0 + 1@1 files
+2026/01/13-14:20:27.390 148a Generated table #372@0: 42 keys, 30694 bytes
+2026/01/13-14:20:27.390 148a Compacted 4@0 + 1@1 files => 30694 bytes
+2026/01/13-14:20:27.400 148a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/13-14:20:27.400 148a Delete type=2 #359
+2026/01/13-14:20:27.400 148a Delete type=2 #362
+2026/01/13-14:20:27.400 148a Delete type=2 #364
+2026/01/13-14:20:27.400 148a Delete type=2 #368
+2026/01/13-14:20:27.400 148a Delete type=2 #370

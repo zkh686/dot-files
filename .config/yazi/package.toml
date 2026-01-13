@@ -1,0 +1,17 @@
+[[plugin.deps]]
+use = "AminurAlam/yazi-plugins:spot"
+rev = "658a099"
+hash = "226324e8e9815ac632c082b50d08155c"
+
+[[plugin.deps]]
+use = "AminurAlam/yazi-plugins:spot-video"
+rev = "658a099"
+hash = "a05f3c628e6e24560c98eede6c3656"
+
+[[plugin.deps]]
+use = "Lil-Dank/lazygit"
+rev = "0e56060"
+hash = "ab2e66065a94cca4886b303518e44bd8"
+
+[flavor]
+deps = []

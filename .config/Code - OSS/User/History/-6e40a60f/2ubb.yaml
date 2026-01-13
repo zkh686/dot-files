@@ -1,0 +1,17 @@
+model: ollama:llama3.1 # Set the default model to use
+clients:
+  - type: openai-compatible
+    name: ollama
+    api_base: http://localhost:11434/v1
+    models:
+      # List the models you have pulled with Ollama
+      z- name: llama3.1
+        max_input_tokens: 56000
+        supports_function_calling: true
+        supports_reasoning: true
+      # You can also add embedding models for RAG
+      - name: nomic-embed-text
+        type: embedding
+        max_tokens_per_chunk: 8192
+        default_chunk_size: 1000
+        max_batch_size: 50

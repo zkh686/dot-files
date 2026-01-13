@@ -1,0 +1,2 @@
+[General] import = [
+"~/.config/alacritty/colors.toml",
