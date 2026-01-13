@@ -1,3 +1,0 @@
-#kitty
-#wezterm
-foot
