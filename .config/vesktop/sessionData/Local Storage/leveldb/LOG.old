@@ -1,6 +1,0 @@
-2026/01/12-22:40:50.160 5714 Reusing MANIFEST /home/zkh/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2026/01/12-22:40:50.163 5714 Recovering log #365
-2026/01/12-22:40:50.166 5714 Reusing old log /home/zkh/.config/vesktop/sessionData/Local Storage/leveldb/000365.log 
-2026/01/12-22:41:50.169 5713 Level-0 table #368: started
-2026/01/12-22:41:50.173 5713 Level-0 table #368: 31764 bytes OK
-2026/01/12-22:41:50.180 5713 Delete type=0 #365
