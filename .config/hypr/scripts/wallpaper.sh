@@ -8,13 +8,13 @@
 # Check to use wallpaper cache
 # -----------------------------------------------------
 
-if [ -f ~/.config/hypr/settings/wallpaper_cache ]; then
+# if [ -f ~/.config/hypr/settings/wallpaper_cache ]; then
     use_cache=1
-    echo ":: Using Wallpaper Cache"
-else
-    use_cache=0
-    echo ":: Wallpaper Cache disabled"
-fi
+    # echo ":: Using Wallpaper Cache"
+# else
+#     use_cache=0
+    #  echo ":: Wallpaper Cache disabled"
+# fi
 
 # -----------------------------------------------------
 # Set defaults
@@ -25,29 +25,28 @@ force_generate=0
 generatedversions="$HOME/.config/hypr/cache/wallpaper-generated"
 waypaperrunning=$HOME/.config/hypr/cache/waypaper-running
 cachefile="$HOME/.config/hypr/cache/current_wallpaper"
-blurredwallpaper="$HOME/.config/hypr/cache/blurred_wallpaper.png"
 squarewallpaper="$HOME/.config/hypr/cache/square_wallpaper.png"
 rasifile="$HOME/.config/hypr/cache/current_wallpaper.rasi"
 blurfile="$HOME/.config/hypr/settings/blur.sh"
 defaultwallpaper="$HOME/wallpaper/default.jpg"
-wallpapereffect="$HOME/.config/hypr/settings/wallpaper-effect.sh"
-blur="50x30"
+wallpapereffect="$HOME/.config/settings/wallpaper-effect.sh"
+ blur="50x30"
 blur=$(cat $blurfile)
 
-# Ensures that the script only run once if wallpaper effect enabled
+# # Ensures that the script only run once if wallpaper effect enabled
 if [ -f $waypaperrunning ]; then
     rm $waypaperrunning
     exit
 fi
 
-# Create folder with generated versions of wallpaper if not exists
+# # Create folder with generated versions of wallpaper if not exists
 if [ ! -d $generatedversions ]; then
     mkdir $generatedversions
 fi
 
-# -----------------------------------------------------
-# Get selected wallpaper
-# -----------------------------------------------------
+# # -----------------------------------------------------
+# # Get selected wallpaper
+# # -----------------------------------------------------
 
 if [ -z $1 ]; then
     if [ -f $cachefile ]; then
@@ -62,9 +61,9 @@ used_wallpaper=$wallpaper
 echo ":: Setting wallpaper with source image $wallpaper"
 tmpwallpaper=$wallpaper
 
-# -----------------------------------------------------
-# Copy path of current wallpaper to cache file
-# -----------------------------------------------------
+# # -----------------------------------------------------
+# # Copy path of current wallpaper to cache file
+# # -----------------------------------------------------
 
 if [ ! -f $cachefile ]; then
     touch $cachefile
@@ -72,15 +71,15 @@ fi
 echo "$wallpaper" >$cachefile
 echo ":: Path of current wallpaper copied to $cachefile"
 
-# -----------------------------------------------------
-# Get wallpaper filename
-# -----------------------------------------------------
+# # -----------------------------------------------------
+# # Get wallpaper filename
+# # -----------------------------------------------------
 wallpaperfilename=$(basename $wallpaper)
 echo ":: Wallpaper Filename: $wallpaperfilename"
 
-# -----------------------------------------------------
-# Wallpaper Effects
-# -----------------------------------------------------
+# # -----------------------------------------------------
+# # Wallpaper Effects
+# # -----------------------------------------------------
 
 if [ -f $wallpapereffect ]; then
     effect=$(cat $wallpapereffect)
@@ -101,63 +100,67 @@ if [ -f $wallpapereffect ]; then
         echo ":: Wallpaper effect is set to off"
     fi
 else
-    effect="off"
-fi
+     effect="off"
+ fi
 
-# -----------------------------------------------------
-# Execute matugen
-# -----------------------------------------------------
+# # -----------------------------------------------------
+# # Execute matugen
+# # -----------------------------------------------------
 
 echo ":: Execute matugen with $used_wallpaper"
-$HOME/.cargo/bin/matugen image $used_wallpaper -m "dark"
+echo $used_wallpaper
+#$HOME/.cargo/bin/matugen image $used_wallpaper -m "dark"
+matugen image $used_wallpaper -m "dark"
 
-# -----------------------------------------------------
-# Execute wallust
-# -----------------------------------------------------
 
-echo ":: Execute wallust with $used_wallpaper"
-$HOME/.cargo/bin/wallust run $used_wallpaper
+# # -----------------------------------------------------
+# # Execute wallust
+# # -----------------------------------------------------
 
-# -----------------------------------------------------
-# Walcord (NOT SUPPORTED)
-# -----------------------------------------------------
+ echo ":: Execute wallust with $used_wallpaper"
+# $HOME/.cargo/bin/wallust run $used_wallpaper
+wallust run $used_wallpaper
 
-if type walcord >/dev/null 2>&1; then
-    walcord
-fi
+# # -----------------------------------------------------
+# # Walcord (NOT SUPPORTED)
+# # -----------------------------------------------------
 
-# -----------------------------------------------------
-# Reload Waybar
-# -----------------------------------------------------
+# if type walcord >/dev/null 2>&1; then
+#     walcord
+# fi
 
-sleep 2
-$HOME/.config/waybar/launch.sh
-# killall -SIGUSR2 waybar
+# # -----------------------------------------------------
+# # Reload Waybar
+# # -----------------------------------------------------
 
-# -----------------------------------------------------
-# Reload nwg-dock-hyprland
-# -----------------------------------------------------
+# sleep 2
+# # $HOME/.config/waybar/launch.sh
+# # killall -SIGUSR2 waybar
 
-#docks are dumb
-#$HOME/.config/nwg-dock-hyprland/launch.sh &
+# # -----------------------------------------------------
+# # Reload nwg-dock-hyprland
+# # -----------------------------------------------------
 
-# -----------------------------------------------------
-# Update Pywalfox
-# -----------------------------------------------------
+# #docks are dumb
+# #$HOME/.config/nwg-dock-hyprland/launch.sh &
 
-if type pywalfox >/dev/null 2>&1; then
-    pywalfox update
-fi
+# # -----------------------------------------------------
+# # Update Pywalfox
+# # -----------------------------------------------------
 
-# -----------------------------------------------------
-# Update SwayNC
-# -----------------------------------------------------
-sleep 0.1
-swaync-client -rs
+# if type pywalfox >/dev/null 2>&1; then
+#     pywalfox update
+# fi
 
-# -----------------------------------------------------
-# Created blurred wallpaper
-# -----------------------------------------------------
+# # -----------------------------------------------------
+# # Update SwayNC
+# # -----------------------------------------------------
+# sleep 0.1
+# swaync-client -rs
+
+# # -----------------------------------------------------
+# # Created blurred wallpaper
+# # -----------------------------------------------------
 
 if [ -f $generatedversions/blur-$blur-$effect-$wallpaperfilename.png ] && [ "$force_generate" == "0" ] && [ "$use_cache" == "1" ]; then
     echo ":: Use cached wallpaper blur-$blur-$effect-$wallpaperfilename"
@@ -174,19 +177,19 @@ else
 fi
 cp $generatedversions/blur-$blur-$effect-$wallpaperfilename.png $blurredwallpaper
 
-# -----------------------------------------------------
-# Create rasi file
-# -----------------------------------------------------
+# # -----------------------------------------------------
+# # Create rasi file
+# # -----------------------------------------------------
 
-if [ ! -f $rasifile ]; then
-    touch $rasifile
-fi
-echo "* { current-image: url(\"$blurredwallpaper\", height); }" >"$rasifile"
+# if [ ! -f $rasifile ]; then
+#     touch $rasifile
+# fi
+# echo "* { current-image: url(\"$blurredwallpaper\", height); }" >"$rasifile"
 
-# -----------------------------------------------------
-# Created square wallpaper
-# -----------------------------------------------------
+# # -----------------------------------------------------
+# # Created square wallpaper
+# # -----------------------------------------------------
 
-echo ":: Generate new cached wallpaper square-$wallpaperfilename"
-magick $tmpwallpaper -gravity Center -extent 1:1 $squarewallpaper
-cp $squarewallpaper $generatedversions/square-$wallpaperfilename.png
+# echo ":: Generate new cached wallpaper square-$wallpaperfilename"
+# magick $tmpwallpaper -gravity Center -extent 1:1 $squarewallpaper
+# cp $squarewallpaper $generatedversions/square-$wallpaperfilename.png

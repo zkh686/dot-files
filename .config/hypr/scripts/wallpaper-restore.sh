@@ -50,4 +50,5 @@ $HOME/.cargo/bin/matugen image $wallpaper -m "dark"
 # -----------------------------------------------------
 
 echo ":: Execute wallust with $wallpaper"
-$HOME/.cargo/bin/wallust run $wallpaper
+# $HOME/.cargo/bin/wallust run $wallpaper
+wallust run $wallpaper

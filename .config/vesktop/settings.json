@@ -5,5 +5,7 @@
     "spellCheckLanguages": [
         "en-US",
         "en"
-    ]
+    ],
+    "splashColor": "rgb(220, 220, 223)",
+    "splashBackground": "rgb(44, 45, 50)"
 }
