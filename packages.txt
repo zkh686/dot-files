@@ -667,7 +667,6 @@ msgpack-c
 mtdev
 nano
 ncurses
-nemo
 neovim
 netstandard-targeting-pack
 nettle
