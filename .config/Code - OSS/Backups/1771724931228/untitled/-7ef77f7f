@@ -1,0 +1,4 @@
+untitled:/etc/greetd/hyprland.conf {"typeId":""}
+[default_session]
+command = "start-hyprland -- -c /path/to/custom/hyprland/config"
+user = "greeter"

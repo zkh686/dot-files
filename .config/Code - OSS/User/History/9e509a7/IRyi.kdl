@@ -1,0 +1,9 @@
+spawn-at-startup "dms run"
+spawn-at-startup "waybar"
+spawn-at-startup "mako"
+spawn-at-startup "swww-daemon"
+spawn-at-startup "vicinae server"
+spawn-at-startup "bash" "-c" "swaybg -i /home/thatmagicalcat/Wallpaper/cloud-resize-blur.png"
+spawn-at-startup "kitty" "--start-as=hidden" "--single-instance"
+// spawn-at-startup "alacritty" "--daemon"
+

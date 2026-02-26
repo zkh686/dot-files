@@ -1,0 +1,30 @@
+[2026-02-21 22:47:18.077] [info]  Configured user data storage {
+  channel: 'stable',
+  directory: 'fluxer',
+  path: '/home/zkh/.config/fluxer'
+}
+[2026-02-21 22:47:18.235] [info]  App ready, initializing...
+[2026-02-21 22:47:18.298] [info]  Electron's autoUpdater does not support the 'linux' platform. Ref: https://www.electronjs.org/docs/latest/api/auto-updater#platform-notices
+[2026-02-21 22:47:18.300] [info]  App initialized successfully
+[2026-02-21 22:47:18.305] [info]  [RPC] Server listening on http://127.0.0.1:21863
+[2026-02-21 22:47:18.305] [info]  [WS Proxy] Server listening on ws://127.0.0.1:21865
+[2026-02-21 22:47:18.306] [info]  [API Proxy] Server listening on http://127.0.0.1:21861/proxy
+[2026-02-21 22:47:18.306] [info]  [Media Proxy] Server listening on http://127.0.0.1:21867/media
+[2026-02-21 22:50:06.973] [info]  Configured user data storage {
+  channel: 'stable',
+  directory: 'fluxer',
+  path: '/home/zkh/.config/fluxer'
+}
+[2026-02-21 22:50:07.127] [info]  App ready, initializing...
+[2026-02-21 22:50:07.147] [info]  Restored window bounds: { x: 0, y: 0, width: 1892, height: 1008, isMaximized: true }
+[2026-02-21 22:50:07.185] [info]  Electron's autoUpdater does not support the 'linux' platform. Ref: https://www.electronjs.org/docs/latest/api/auto-updater#platform-notices
+[2026-02-21 22:50:07.188] [info]  App initialized successfully
+[2026-02-21 22:50:07.193] [info]  [RPC] Server listening on http://127.0.0.1:21863
+[2026-02-21 22:50:07.194] [info]  [WS Proxy] Server listening on ws://127.0.0.1:21865
+[2026-02-21 22:50:07.194] [info]  [API Proxy] Server listening on http://127.0.0.1:21861/proxy
+[2026-02-21 22:50:07.194] [info]  [Media Proxy] Server listening on http://127.0.0.1:21867/media
+[2026-02-21 23:01:16.478] [info]  Configured user data storage {
+  channel: 'stable',
+  directory: 'fluxer',
+  path: '/home/zkh/.config/fluxer'
+}

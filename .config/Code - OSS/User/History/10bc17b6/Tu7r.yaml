@@ -1,0 +1,21 @@
+version: '3'
+services:
+  searxng:
+    image: searxng/searxng
+    container_name: searxng
+    ports:
+      - "8888:8888"
+    environment:
+      - SEARXNG_WEBUI=true
+      - SEARXNG_PRIVATE_MODE=false
+      # Add any additional environment variables here
+    volumes:
+      - searxng-config:/app/data
+      - searxng-engines:/app/engines
+      - searxng-user-agents:/app/user_agents
+      - searxng-searches:/app/searches
+    networks:
+      - searxng-network
+
+networks:
+  searxng-network:

@@ -1,0 +1,33 @@
+version: '3.3'
+
+services:
+  searxng:
+    image: searxng/searxng:latest
+    restart: always
+    ports:
+      # Maps port 8080 on the host to port 8080 in the container
+      - "8080:8080" 
+    volumes:
+      # Persists configuration data
+      - ./searxng:/etc/searxng:rw
+    environment:
+      # Sets the base URL for the instance
+      - SEARXNG_BASE_URL=http://localhost:8080/
+      # A secret key must be set in the settings.yml in the volume path
+      # The official script above handles generating this
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+      - DAC_OVERRIDE
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "1"
+
+# You would also typically add a volume for caching
+volumes:
+  searxng:

@@ -1,0 +1,19 @@
+{"timestamp":2449104,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","glean_timestamp":"1772047497207","can_load":"false","loadfail_reason":"File doesn't exist."}}
+{"timestamp":2449105,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","can_load":"true","glean_timestamp":"1772047497208","path_key":"recovery"}}
+{"timestamp":2449105,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","glean_timestamp":"1772047497208","path_key":"recovery","can_load":"true"}}
+{"timestamp":2449105,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"glean_timestamp":"1772047497208","shutdown_ok":"true","shutdown_reason":"final-state-write-incomplete"}}
+{"timestamp":2449516,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1772047497619"}}
+{"timestamp":2449687,"category":"nimbus_events","name":"startup_database_consistency","extra":{"total_store_count":"37","store_active_count":"34","db_active_count":"34","trigger":"startup","total_db_count":"37","primary":"database","glean_timestamp":"1772047497790"}}
+{"timestamp":2449717,"category":"jsonfile","name":"load_autofillprofiles","extra":{"value":"error_notfounderror","glean_timestamp":"1772047497820"}}
+{"timestamp":2449764,"category":"network.dns","name":"trr_confirmation_context","extra":{"networkID":"cq1AkmIZP60LNKrWCtN5V/RXCso=","captivePortal":"1","glean_timestamp":"1772047497867","time":"35.260910","results":"+","attemptCount":"1","trigger":"pref-change","value":"2","contextReason":"pref-change"}}
+{"timestamp":2449802,"category":"normandy","name":"unenroll_nimbus_experiment","extra":{"branch":"rollout-branch","reason":"recipe-not-seen","value":"pin-frequently-used-websites-143-promo-rollout-all-locales","glean_timestamp":"1772047497905"}}
+{"timestamp":2449802,"category":"nimbus_events","name":"unenrollment","extra":{"reason":"recipe-not-seen","branch":"rollout-branch","glean_timestamp":"1772047497905","experiment":"pin-frequently-used-websites-143-promo-rollout-all-locales"}}
+{"timestamp":2449840,"category":"containers","name":"container_profile_loaded","extra":{"glean_timestamp":"1772047497943","containers":"4"}}
+{"timestamp":2449851,"category":"doh","name":"state_enabled","extra":{"value":"null","glean_timestamp":"1772047497954"}}
+{"timestamp":2449851,"category":"doh","name":"evaluate_v2_heuristics","extra":{"value":"enable_doh","glean_timestamp":"1772047497954","canaries":"","networkID":"hXGffzhdsqkOIZGP+PBebzJZqXhG23mxYxGGs5enRb8=","platform":"","captiveState":"not_captive","evaluateReason":"startup","filtering":"","steeredProvider":"","enterprise":""}}
+{"timestamp":2449959,"category":"normandy","name":"enroll_nimbus_experiment","extra":{"value":"pin-frequently-used-websites-promo-rollout-day-3-users-all-locales","branch":"rollout-branch","experimentType":"rollout","glean_timestamp":"1772047498062"}}
+{"timestamp":2449959,"category":"nimbus_events","name":"enrollment","extra":{"experiment":"pin-frequently-used-websites-promo-rollout-day-3-users-all-locales","experiment_type":"rollout","branch":"rollout-branch","glean_timestamp":"1772047498062"}}
+{"timestamp":2449963,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1772047498066"}}
+{"timestamp":2449978,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1772047498081","value":"not-major"}}
+{"timestamp":2451311,"category":"nimbus_events","name":"database_write","extra":{"success":"true","glean_timestamp":"1772047499414"}}
+{"timestamp":2514091,"category":"doh","name":"state_shutdown","extra":{"glean_timestamp":"1772047562194","value":"null"}}

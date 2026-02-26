@@ -13,10 +13,11 @@ local get_config = ya.sync(function(st)
     or {
       metadata_section = {
         enable = true,
-        hash_cmd = 'cksum', -- other hashing commands can be slower
+        hash_cmd = 'xxhsum', -- other hashing commands may be slower
         hash_filesize_limit = 150, -- in MB, set 0 to disable
-        relative_time = true,
+        relative_time = true, -- 2026-01-01 or n days ago
         time_format = '%Y-%m-%d %H:%M', -- https://www.man7.org/linux/man-pages/man3/strftime.3.html
+        show_compression = 'size', ---@type false|"size"|"percentage"
       },
       plugins_section = {
         enable = true,
@@ -25,6 +26,7 @@ local get_config = ya.sync(function(st)
         section = 'green',
         key = 'reset',
         value = 'blue',
+        selected = 'green',
         colorize_metadata = true,
         height = 20,
         width = 60,
@@ -85,18 +87,11 @@ local hash = function(file, config)
     ui.Style():fg('yellow'),
   }
 
-  if config.metadata_section.hash_filesize_limit == 0 then
-    return ui.Line('')
-  end
-
-  if file.cha.len > (config.metadata_section.hash_filesize_limit * 1000000) then
-    return ui.Line('')
-  end
   local cmd = Command(config.metadata_section.hash_cmd):arg { file.name }
 
   local output, err = cmd:output()
   if not output then
-    return Err('Failed to compute hash: %s', err)
+    return Err('Error: %s', err)
   end
 
   local sum = output.stdout:sub(1, -#file.name - 3)
@@ -170,6 +165,39 @@ function M:setup(config)
   set_config(tbl_strict_extend(get_config(), config))
 end
 
+---@param urls Url
+---@return integer
+local get_total_size = function(urls)
+  local total = 0
+  for _, url in ipairs(urls) do
+    local it = fs.calc_size(url)
+    while true do
+      local next = it:recv() ---@diagnostic disable-line: undefined-field
+      if next then
+        total = total + next
+      else
+        break
+      end
+    end
+  end
+  return total
+end
+
+---@param size integer
+---@return string
+local format_size = function(size)
+  local units = { 'B', 'K', 'M', 'G', 'T' }
+  local unit_index = 1
+  while size > 1024 and unit_index < #units do
+    size = size / 1024
+    unit_index = unit_index + 1
+  end
+
+  local str = string.format('%.2f', size)
+  str = string.gsub(str, '(%d),?0*$', '%1')
+  return str .. ' ' .. units[unit_index]
+end
+
 ---@param job Job
 ---@param extra table
 ---@param config SpotConf
@@ -203,16 +231,42 @@ function M:render_table(job, extra, config)
     end
   end
 
+  local hashrow = (
+    config.metadata_section.hash_filesize_limit > 0
+    and not job.file.cha.is_dir
+    and not (job.file.cha.len > (config.metadata_section.hash_filesize_limit * 1000000))
+  )
+      and { 'Hash', hash(job.file, config) }
+    or nil
+
+  local size = format_size(get_total_size({ job.file.url })) ---@diagnostic disable-line: missing-fields
+
+  if config.metadata_section.show_compression and job.mime == 'application/zip' then
+    local comp_size = '??'
+    local output, err = Command('zipinfo'):arg({ '-t', tostring(job.file.url) }):output()
+
+    if not output or err then
+      return Err('Error: %s', err)
+    elseif config.metadata_section.show_compression == 'percentage' then
+      comp_size = string.gsub(output.stdout, '.* (%d+%.%d+%%)', '%1')
+    elseif config.metadata_section.show_compression == 'size' then
+      comp_size =
+        format_size(tonumber(string.gsub(output.stdout, '.* (%d+) bytes uncompressed.*', '%1'), 10))
+    end
+    size = size .. ' (' .. comp_size .. ')'
+  end
+
   -- Metadata
   if config.metadata_section.enable then
     add_section {
       title = 'Metadata',
       { 'Mimetype', job.mime },
+      { 'Size', size }, -- TODO: update modeline with size
       { 'Mode', permission(job.file, config) },
       { 'Created', fileTimestamp(job.file, 'btime', config) },
       { 'Modified', fileTimestamp(job.file, 'mtime', config) },
       { 'Accessed', fileTimestamp(job.file, 'atime', config) },
-      { 'Hash', hash(job.file, config) },
+      hashrow,
     }
   end
 
@@ -253,7 +307,7 @@ function M:render_table(job, extra, config)
       ui.Constraint.Length(config.style.key_length),
       ui.Constraint.Fill(1),
     })
-    :cell_style(ui.Style():fg(config.style.value):reverse())
+    :cell_style(ui.Style():fg(config.style.selected):reverse())
   -- :col_style(styles.row_value)
 end
 
@@ -262,7 +316,7 @@ end
 ---@param config SpotConf
 function M:spot(job, extra, config)
   config = tbl_strict_extend(get_config(), config) ---@type SpotConf
-  job.area = ui.Pos({ 'center', w = config.style.width, h = config.style.height }) ---@diagnostic disable-line: inject-field
+  job.area = ui.Pos({ 'center', w = config.style.width, h = config.style.height }) ---@diagnostic disable-line: assign-type-mismatch
   ya.spot_table(job, self:render_table(job, extra, config)) ---@diagnostic disable-line: undefined-field
 end
 

@@ -1,4 +1,10 @@
-<img width="1920" height="1080" alt="window with basic metadata" src="https://github.com/user-attachments/assets/d21595a6-d2ed-4133-b31a-14cf004c1631" />
+<img width="1920" height="1080" alt="window with basic metadata" src="https://github.com/user-attachments/assets/4cd526bb-11fe-4aa5-9d2c-27328fab37c9" />
+
+spot.yazi + [spot-video.yazi](/spot-video.yazi)
+<img width="1920" height="1080" alt="another window showing multiple streams" src="https://github.com/user-attachments/assets/933b124d-4f1f-44f2-b1d8-128a3fcbdf5d" />
+
+spot.yazi + [spot-audio.yazi](/spot-audio.yazi)
+<img width="1920" height="1080" alt="window showing audio metadata" src="https://github.com/user-attachments/assets/d6eef132-bbba-4eb3-bb29-0527a38699d8" />
 
 # Installation
 
@@ -8,44 +14,21 @@ ya pkg add AminurAlam/yazi-plugins:spot
 
 # Dependencies
 
-- `cksum` (part of GNU coreutils) (optional)
+- `cksum`/`md5sum`/`sha256sum` - optional dependency for showing unique file hash
 
 # Usage
-
-this plugin can be used as a spotter for basic metadata or used to build your own custom spotter
-
-in `~/.config/yazi/plugins/spot-custom.yazi/main.lua`
-
-```lua
-local M = {}
-
-function M:spot(job)
-  require('spot'):spot(job, {
-    {
-      title = 'AAA',
-      { '1', 'ONE' },
-      { '2', 'TWO' },
-    },
-    {
-      title = 'BBB',
-      { '1', ui.Line('ONE'):fg('red') },
-      { '2', ui.Line('TWO'):fg('magenta') },
-    },
-  }, {
-    -- you can pass config table here just like in :setup({...})
-  })
-end
-
-return M
-```
 
 in `~/.config/yazi/yazi.toml`
 
 ```toml
 [plugin]
 prepend_spotters = [
-  { mime = "audio/*", run = "spot" }, # use the plugin with default settings
-  { mime = "video/*", run = "spot-custom" }, # use your custom spotter that you created above
+  # use the plugin for a specific mime type
+  { mime = "audio/*", run = "spot" },
+  # use as a spotter for all directories
+  { url = "*/", run = "spot" },
+  # use as a fallback for all files that don't have a spotter
+  { url = "*", run = "spot" },
 ]
 ```
 
@@ -55,10 +38,11 @@ in `~/.config/yazi/init.lua`
 require('spot'):setup {
   metadata_section = {
     enable = true,
-    hash_cmd = 'cksum', -- other hashing commands can be slower
+    hash_cmd = 'xxhsum', -- other hashing commands may be slower
     hash_filesize_limit = 150, -- in MB, set 0 to disable
-    relative_time = true,
+    relative_time = true, -- 2026-01-01 or n days ago
     time_format = '%Y-%m-%d %H:%M', -- https://www.man7.org/linux/man-pages/man3/strftime.3.html
+    show_compression = 'size', ---@type false|"size"|"percentage"
   },
   plugins_section = {
     enable = true,
@@ -67,6 +51,7 @@ require('spot'):setup {
     section = 'green',
     key = 'reset',
     value = 'blue',
+    selected = 'green',
     colorize_metadata = true,
     height = 20,
     width = 60,
@@ -74,3 +59,15 @@ require('spot'):setup {
   },
 }
 ```
+
+# Footnote
+
+see [spot-template.yazi](/spot-template.yazi) to make your own spotter
+
+list of plugins using spot.yazi as a base
+
+- [spot-audio.yazi](/spot-audio.yazi)
+- [spot-video.yazi](/spot-video.yazi)
+- [spot-cbz.yazi](/spot-cbz.yazi)
+
+if you are building something on top of spot.yazi feel free to add it here

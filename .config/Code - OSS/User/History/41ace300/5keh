@@ -1,0 +1,14 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+# End of lines configured by zsh-newuser-install
+
+
+# for file in ~/.config/zshrc; do
+#     source "$file"
+# done
+source ~/.config/zshrc/00-init
+source ~/.config/zshrc/20-customization
+source ~/.config/zshrc/25-aliases
+source ~/.config/zshrc/30-autostart
