@@ -45,12 +45,10 @@ fi
 
 # Start xdg-desktop-portal
 /usr/lib/xdg-desktop-portal &
-sleep $_sleep2
+# sleep $_sleep2
 
 # Start required services
 systemctl --user start pipewire
 systemctl --user start wireplumber
 systemctl --user start xdg-desktop-portal
 systemctl --user start xdg-desktop-portal-hyprland
-
-

@@ -16,6 +16,13 @@ wl-paste --type text --watch cliphist store &
 vicinae server &
 dms run &
 ~/.config/scripts/wallpaper-restore.sh &
+
+# mmsg -s -t 8
+# conky &
 ~/.config/scripts/conky.sh
 
 swww-daemon
+
+
+#scratchpads
+#foot --title "btop" -e "btop"

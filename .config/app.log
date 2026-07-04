@@ -1,0 +1,18 @@
+[2026-05-05 20:40:26.805] [error] Error: ENOENT: no such file or directory, open 'settings.json'
+    at Object.openSync (node:fs:561:18)
+    at Object.func [as openSync] (node:electron/js2c/node_init:2:2617)
+    at Object.readFileSync (node:fs:445:35)
+    at t.readFileSync (node:electron/js2c/node_init:2:11013)
+    at pn.loadSettings (/opt/stellar-mod-loader-bin/resources/app.asar/electron/main.js:33:205324)
+    at /opt/stellar-mod-loader-bin/resources/app.asar/electron/main.js:50:4788
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:107089)
+    at Session.emit (node:events:519:28)
+[2026-05-05 20:40:26.808] [error] Error: ENOENT: no such file or directory, open 'settings.json'
+    at Object.openSync (node:fs:561:18)
+    at Object.func [as openSync] (node:electron/js2c/node_init:2:2617)
+    at Object.readFileSync (node:fs:445:35)
+    at t.readFileSync (node:electron/js2c/node_init:2:11013)
+    at pn.loadSettings (/opt/stellar-mod-loader-bin/resources/app.asar/electron/main.js:33:205324)
+    at /opt/stellar-mod-loader-bin/resources/app.asar/electron/main.js:50:4788
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:107089)
+    at Session.emit (node:events:519:28)

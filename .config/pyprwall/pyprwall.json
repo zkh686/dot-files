@@ -1,0 +1,62 @@
+{
+  "wallpaper_cache": [
+    "/home/zkh/wallpaper/a_cold_bluish_landscape-wallpaper-2560x720.jpg",
+    "/home/zkh/wallpaper/abstract_swirl_design-wallpaper-1920x1080.jpg",
+    "/home/zkh/wallpaper/cvdnflo0brfg1.jpeg",
+    "/home/zkh/wallpaper/gel2r6g9pvjg1.jpeg",
+    "/home/zkh/wallpaper/house_forest_3d-wallpaper-2560x1024.jpg",
+    "/home/zkh/wallpaper/m49p0etavwfg1.jpeg",
+    "/home/zkh/wallpaper/new-batch-7680x2160-ultrawide-wallpapers-02-15-link-in-v0-0vdjk5081kjg1.webp",
+    "/home/zkh/wallpaper/pixel_landscape-wallpaper-2560x720.jpg",
+    "/home/zkh/wallpaper/rhrqzqx7e9gg1.png",
+    "/home/zkh/wallpaper/the_running_man-wallpaper-3200x900.jpg",
+    "/home/zkh/wallpaper/wallhaven-4lqrzp.jpg",
+    "/home/zkh/wallpaper/wallhaven-g8jm53.jpg",
+    "/home/zkh/wallpaper/wallhaven-k81776.jpg",
+    "/home/zkh/wallpaper/wbvj76kcxgig1.jpeg"
+  ],
+  "wallpaper_cache_meta": {
+    "mtime": 1772232213.148721,
+    "files": [
+      "a_cold_bluish_landscape-wallpaper-2560x720.jpg",
+      "abstract_swirl_design-wallpaper-1920x1080.jpg",
+      "cvdnflo0brfg1.jpeg",
+      "gel2r6g9pvjg1.jpeg",
+      "house_forest_3d-wallpaper-2560x1024.jpg",
+      "m49p0etavwfg1.jpeg",
+      "new-batch-7680x2160-ultrawide-wallpapers-02-15-link-in-v0-0vdjk5081kjg1.webp",
+      "pixel_landscape-wallpaper-2560x720.jpg",
+      "rhrqzqx7e9gg1.png",
+      "the_running_man-wallpaper-3200x900.jpg",
+      "wallhaven-4lqrzp.jpg",
+      "wallhaven-g8jm53.jpg",
+      "wallhaven-k81776.jpg",
+      "wbvj76kcxgig1.jpeg"
+    ]
+  },
+  "interval": 1800,
+  "random_order": false,
+  "wallpaper_dir": "/home/zkh/wallpaper",
+  "cycle_state": {
+    "is_cycling": true,
+    "is_paused": false,
+    "current_index": 0,
+    "wallpaper_list": [
+      "/home/zkh/wallpaper/a_cold_bluish_landscape-wallpaper-2560x720.jpg",
+      "/home/zkh/wallpaper/abstract_swirl_design-wallpaper-1920x1080.jpg",
+      "/home/zkh/wallpaper/cvdnflo0brfg1.jpeg",
+      "/home/zkh/wallpaper/gel2r6g9pvjg1.jpeg",
+      "/home/zkh/wallpaper/house_forest_3d-wallpaper-2560x1024.jpg",
+      "/home/zkh/wallpaper/m49p0etavwfg1.jpeg",
+      "/home/zkh/wallpaper/new-batch-7680x2160-ultrawide-wallpapers-02-15-link-in-v0-0vdjk5081kjg1.webp",
+      "/home/zkh/wallpaper/pixel_landscape-wallpaper-2560x720.jpg",
+      "/home/zkh/wallpaper/rhrqzqx7e9gg1.png",
+      "/home/zkh/wallpaper/the_running_man-wallpaper-3200x900.jpg",
+      "/home/zkh/wallpaper/wallhaven-4lqrzp.jpg",
+      "/home/zkh/wallpaper/wallhaven-g8jm53.jpg",
+      "/home/zkh/wallpaper/wallhaven-k81776.jpg",
+      "/home/zkh/wallpaper/wbvj76kcxgig1.jpeg"
+    ],
+    "current_wallpaper": "/home/zkh/wallpaper/abstract_swirl_design-wallpaper-1920x1080.jpg"
+  }
+}

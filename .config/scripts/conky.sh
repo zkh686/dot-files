@@ -1,3 +1,6 @@
-hyprctl dispatch movetoworkspace 10 DP-2
-#the above works in hyprland; not sure how to accomplish this in mango
+
+#how can I get the active compoisitor in the script ? 
+
+hyprctl dispatch workspace 9
+sleep 3
 conky &

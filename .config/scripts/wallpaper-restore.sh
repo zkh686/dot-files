@@ -15,9 +15,7 @@
 # -----------------------------------------------------
 
 defaultwallpaper="$HOME/wallpaper/default.jpg"
-# cachefile="$HOME/.config/hypr/cache/current_wallpaper"
 cachefile="$HOME/.config/cache/current_wallpaper"
-
 
 # -----------------------------------------------------
 # Get current wallpaper

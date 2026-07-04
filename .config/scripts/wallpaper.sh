@@ -109,8 +109,8 @@ else
 
 echo ":: Execute matugen with $used_wallpaper"
 echo $used_wallpaper
-#$HOME/.cargo/bin/matugen image $used_wallpaper -m "dark"
-matugen image $used_wallpaper -m "dark"
+#$HOME/.cargo/bin/matugen image $used_wallpaper -m "light"
+matugen image $used_wallpaper -m "light"
 
 
 # # -----------------------------------------------------

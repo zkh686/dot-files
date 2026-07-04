@@ -23,6 +23,7 @@
         "lossless_present": "VSync/FIFO",
         "playtime": 764,
         "hidden": false,
-        "prevent_sleep": ""
+        "prevent_sleep": "",
+        "icon": "/home/zkh/.config/faugus-launcher/icons/battlenet.ico"
     }
 ]
