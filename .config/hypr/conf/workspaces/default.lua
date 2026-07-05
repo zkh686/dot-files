@@ -1,0 +1,11 @@
+hl.workspace_rule({ workspace = "name:1", monitor = "DP-1", default = true })
+hl.workspace_rule({ workspace = "name:2", monitor = "DP-1", default = true })
+hl.workspace_rule({ workspace = "name:3", monitor = "DP-1", default = true })
+hl.workspace_rule({ workspace = "name:4", monitor = "DP-1", default = true })
+hl.workspace_rule({ workspace = "name:5", monitor = "DP-1", default = true })
+hl.workspace_rule({ workspace = "name:6", monitor = "DP-2", default = true })
+hl.workspace_rule({ workspace = "name:7", monitor = "DP-2", default = true })
+hl.workspace_rule({ workspace = "name:8", monitor = "DP-2", default = true })
+hl.workspace_rule({ workspace = "name:9", monitor = "DP-2", default = true })
+hl.workspace_rule({ workspace = "name:0", monitor = "DP-2", default = true })
+

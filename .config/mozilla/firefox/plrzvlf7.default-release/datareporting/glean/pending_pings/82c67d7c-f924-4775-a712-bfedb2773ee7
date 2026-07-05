@@ -1,3 +1,0 @@
-/submit/firefox-desktop/newtab-content/1/82c67d7c-f924-4775-a712-bfedb2773ee7
-{"metrics":{"string":{"newtab_content.surface_id":"NEW_TAB_EN_US","newtab_content.country":"US","newtab_content.experiment_branch":"","newtab_content.experiment_name":""},"object":{"newtab_content.inferred_interests":{}},"quantity":{"newtab_content.ping_version":2},"string_list":{"glean.ping.uploader_capabilities":["ohttp"]}}}
-{"headers":{},"body_has_info_sections":false,"ping_name":"newtab-content","uploader_capabilities":["ohttp"]}
