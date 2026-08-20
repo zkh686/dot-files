@@ -1,0 +1,19 @@
+_config_version: 37
+model:
+  default: "qwen3.8:27b"
+  provider: "custom"
+  base_url: "http://127.0.0"
+
+custom_providers:
+  - name: "custom"
+    base_url: "http://localhost:11434/v1"
+    models:
+      - "qwen3.8:27b"
+      - "Qwen3:4B"
+
+# ── Security ──────────────────────────────────────────────────────────
+# Secret redaction is ON by default — strings that look like API keys,
+# tokens, and passwords are masked in tool output, logs, and chat
+# responses before the model or user ever sees them.
+# security:
+#   redact_secrets: true
