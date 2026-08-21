@@ -6,16 +6,27 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd("vicinae toggle"), { description = "Toggle Vicinae" })
 
+-- hyprscratch scratchpads
+hl.bind("SUPER + A", hl.dsp.exec_cmd('hyprscratch "firefox" "firefox --class firefox-local --new-window http://localhost:3000/"'))
+hl.bind(mainMod .. " + B",            hl.dsp.exec_cmd('hyprscratch btop "foot --title btop -e btop"'))
+hl.bind(mainMod .. " + K",            hl.dsp.exec_cmd('hyprscratch kitty "kitty --title kitty"'))
+hl.bind(mainMod .. " + E",            hl.dsp.exec_cmd('hyprscratch yazi "foot --title yazi -e yazi"'))
+hl.bind(mainMod .. " + N",            hl.dsp.exec_cmd('hyprscratch obsidian obsidian'))
+hl.bind(mainMod .. " + F",            hl.dsp.exec_cmd('hyprscratch "firefox-local" "firefox --class firefox-local --new-window http://localhost:3000/"'))
+
 -- Pypr scratchpads
-hl.bind(mainMod .. " + K",            hl.dsp.exec_cmd("pypr toggle term"))
-hl.bind(mainMod .. " + E",            hl.dsp.exec_cmd("pypr toggle file"))
-hl.bind(mainMod .. " + B",            hl.dsp.exec_cmd("pypr toggle btop"))
-hl.bind(mainMod .. " + N",            hl.dsp.exec_cmd("pypr toggle obsidian"))
-hl.bind(mainMod .. " + A",            hl.dsp.exec_cmd("pypr toggle openwebui"))
+-- hl.bind(mainMod .. " + K",            hl.dsp.exec_cmd("pypr toggle term"))
+-- hl.bind(mainMod .. " + E",            hl.dsp.exec_cmd("pypr toggle file"))
+-- hl.bind(mainMod .. " + B",            hl.dsp.exec_cmd("pypr toggle btop"))
+-- hl.bind(mainMod .. " + N",            hl.dsp.exec_cmd("pypr toggle ofbsidian"))
+-- hl.bind(mainMod .. " + A",            hl.dsp.exec_cmd("pypr toggle openwebui"))
 
 --plugins
-hl.bind("SUPER + O", hl.plugin.gloview.allworkspaces)
-hl.bind("SUPER + TAB", hl.plugin.gloview.toggle)
+-- hl.bind("SUPER + O", hl.plugin.gloview.allworkspaces)
+-- hl.bind("SUPER + TAB", hl.plugin.gloview.toggle)
+
+-- togglescreenreader
+hl.bind(mainMod .. " + CTRL + S", hl.dsp.exec_cmd("killall orca || orca"), { description = "Open the calculator" })
 
 
 -- Applications
@@ -27,8 +38,7 @@ hl.bind(mainMod .. " + CTRL + C", hl.dsp.exec_cmd("~/.config/ml4w/settings/calcu
 
 
 -- Windows
-hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd("~/.config/hypr/scripts/killactive.sh"), { description = "Kill active window" })
--- hl.bind(mainMod .. " + Q", hl.dsp.window.close(), { description = "Kill active window" })
+hl.bind(mainMod .. " + Q", hl.dsp.window.close(), { description = "Kill active window" })
 hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.exec_cmd("hyprctl activewindow | grep pid | tr -d 'pid:' | xargs kill"), { description = "Quit active window and all open instances" })
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }), { description = "Toggle Fullscreen" })
 hl.bind(mainMod .. " + M", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }), { description = "Toggle Maximize Window" })
@@ -61,8 +71,9 @@ hl.bind(mainMod .. " + ALT + F", hl.dsp.exec_cmd("~/.config/hypr/scripts/screens
 hl.bind(mainMod .. " + ALT + S", hl.dsp.exec_cmd("~/.config/hypr/scripts/screenshot.sh --instant-area"), { description = "Take an instant area screenshot" })
 hl.bind(mainMod .. " + ALT + A", hl.dsp.exec_cmd("~/.config/hypr/scripts/text-extractor.sh"), { description = "Extract text from an area" })
 hl.bind(mainMod .. " + CTRL + P", hl.dsp.exec_cmd("qs ipc call power toggle"), { description = "Start Power Menu" })
-hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("waypaper --random"), { description = "Change the wallpaper" })
-hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("waypaper"), { description = "Open wallpaper selector" })
+
+hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("waypaper --random"), { description = "Random wallpaper" })
+-- -- hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("waypaper"), { description = "Open wallpaper selector" })
 hl.bind(mainMod .. " + ALT + W", hl.dsp.exec_cmd("~/.config/ml4w/scripts/ml4w-wallpaper-automation"), { description = "Start random wallpaper script" })
 hl.bind(mainMod .. " + CTRL + RETURN", hl.dsp.exec_cmd("~/.config/hypr/scripts/launcher.sh"), { description = "Open application launcher" })
 hl.bind(mainMod .. " + CTRL + K", hl.dsp.exec_cmd("~/.config/hypr/scripts/keybindings.sh"), { description = "Show keybindings" })
