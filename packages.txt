@@ -949,8 +949,7 @@ pinentry
 pinta
 pipewire
 pipewire-alsa
-pipewire-audio
-pipewire-jack
+pipewire-audk
 pipewire-pulse
 pixman
 pkcs11-helper
