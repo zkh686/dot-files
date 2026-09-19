@@ -14,16 +14,10 @@ hl.bind(mainMod .. " + E",            hl.dsp.exec_cmd('hyprscratch yazi "foot --
 hl.bind(mainMod .. " + N",            hl.dsp.exec_cmd('hyprscratch obsidian obsidian'))
 hl.bind(mainMod .. " + F",            hl.dsp.exec_cmd('hyprscratch "firefox-local" "firefox --class firefox-local --new-window http://localhost:3000/"'))
 
--- Pypr scratchpads
--- hl.bind(mainMod .. " + K",            hl.dsp.exec_cmd("pypr toggle term"))
--- hl.bind(mainMod .. " + E",            hl.dsp.exec_cmd("pypr toggle file"))
--- hl.bind(mainMod .. " + B",            hl.dsp.exec_cmd("pypr toggle btop"))
--- hl.bind(mainMod .. " + N",            hl.dsp.exec_cmd("pypr toggle ofbsidian"))
--- hl.bind(mainMod .. " + A",            hl.dsp.exec_cmd("pypr toggle openwebui"))
 
 --plugins
--- hl.bind("SUPER + O", hl.plugin.gloview.allworkspaces)
--- hl.bind("SUPER + TAB", hl.plugin.gloview.toggle)
+hl.bind("SUPER + O", hl.plugin.gloview.allworkspaces)
+hl.bind("SUPER + TAB", hl.plugin.gloview.toggle)
 
 -- togglescreenreader
 hl.bind(mainMod .. " + CTRL + S", hl.dsp.exec_cmd("killall orca || orca"), { description = "Open the calculator" })
@@ -31,8 +25,6 @@ hl.bind(mainMod .. " + CTRL + S", hl.dsp.exec_cmd("killall orca || orca"), { des
 
 -- Applications
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd("~/.config/scripts/terminal.sh"), { description = "Open the terminal" })
--- hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("~/.config/ml4w/settings/browser.sh"), { description = "Open the browser" })
--- -- -- hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("~/.config/ml4w/settings/filemanager"), { description = "Open the filemanager" })
 hl.bind(mainMod .. " + CTRL + E", hl.dsp.exec_cmd("~/.config/ml4w/settings/emojipicker.sh"), { description = "Open the emoji picker" })
 hl.bind(mainMod .. " + CTRL + C", hl.dsp.exec_cmd("~/.config/ml4w/settings/calculator.sh"), { description = "Open the calculator" })
 
@@ -71,6 +63,8 @@ hl.bind(mainMod .. " + ALT + F", hl.dsp.exec_cmd("~/.config/hypr/scripts/screens
 hl.bind(mainMod .. " + ALT + S", hl.dsp.exec_cmd("~/.config/hypr/scripts/screenshot.sh --instant-area"), { description = "Take an instant area screenshot" })
 hl.bind(mainMod .. " + ALT + A", hl.dsp.exec_cmd("~/.config/hypr/scripts/text-extractor.sh"), { description = "Extract text from an area" })
 hl.bind(mainMod .. " + CTRL + P", hl.dsp.exec_cmd("qs ipc call power toggle"), { description = "Start Power Menu" })
+
+
 
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("waypaper --random"), { description = "Random wallpaper" })
 -- -- hl.bind(mainMod .. " + CTRL + W", hl.dsp.exec_cmd("waypaper"), { description = "Open wallpaper selector" })
@@ -120,3 +114,14 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + " .. key,             hl.dsp.focus({ workspace = i}), { description = "Focus workspace " .. i })
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }), { description = "Move window to workspace " .. i })
 end
+
+
+local directions = { "left", "right", "up", "down" }
+
+for _, dir in ipairs(directions) do
+
+hl.bind(mainMod .. " + " .. dir, hl.dsp.focus({ direction = dir }))
+
+hl.bind(mainMod .. " + ALT + " .. dir, hl.dsp.window.move({ direction = dir }))
+
+end  

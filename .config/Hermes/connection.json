@@ -1,0 +1,8 @@
+{
+  "mode": "local",
+  "remote": {
+    "url": "",
+    "authMode": "token"
+  },
+  "profiles": {}
+}

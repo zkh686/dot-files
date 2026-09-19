@@ -1,0 +1,8 @@
+2026/09/17-15:58:38.737 b603 Reusing MANIFEST /home/zkh/.config/Hermes/Local Storage/leveldb/MANIFEST-000001
+2026/09/17-15:58:38.742 b603 Recovering log #27
+2026/09/17-15:58:38.743 b603 Level-0 table #30: started
+2026/09/17-15:58:38.748 b603 Level-0 table #30: 109137 bytes OK
+2026/09/17-15:58:38.755 b603 Delete type=0 #27
+2026/09/17-15:59:38.756 b600 Level-0 table #33: started
+2026/09/17-15:59:38.761 b600 Level-0 table #33: 99886 bytes OK
+2026/09/17-15:59:38.769 b600 Delete type=0 #31

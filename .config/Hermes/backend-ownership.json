@@ -1,0 +1,13 @@
+{
+  "backends": [
+    {
+      "nonce": "229ec03db06c9265f3da1e5225b2e376",
+      "pid": 46736,
+      "profile": "default",
+      "startMarker": "linux:496492",
+      "command": "/home/zkh/.hermes/hermes-agent/venv/bin/python -m hermes_cli.main serve --host 127.0.0.1 --port 0",
+      "parentPid": 46556,
+      "parentStartMarker": "linux:496427"
+    }
+  ]
+}

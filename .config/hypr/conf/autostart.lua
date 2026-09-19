@@ -1,6 +1,15 @@
 hl.on("hyprland.start", function () 
     -- local hsc = require("hyprscratch")
     -- Load cursor
+    hl.config({
+  debug = {
+    disable_logs = false,
+  }
+})
+    
+    hl.exec_cmd("gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'")
+    hl.exec_cmd("exec = gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'")
+
     hl.exec_cmd("hyprctl setcursor Bibata-Modern-Classic 32")
     -- Start listeners
     hl.exec_cmd("~/.config/ml4w/listeners.sh --startall")
@@ -22,10 +31,10 @@ hl.on("hyprland.start", function ()
     -- Start autostart cleanup
     hl.exec_cmd("~/.config/hypr/scripts/cleanup.sh")
     hl.exec_cmd("pypr")
-    -- hl.exec_("hyprscratch init clean eager")
+    hl.exec_cmd("hyprscratch init clean eager")
     hl.exec_cmd("vicinae server")
+    hl.exec_cmd("~/.config/scripts/hyprconky.sh")
     hl.exec_cmd("dms run &")
     hl.exec_cmd("hyprpm reload")
-    hl.exec_cmd("~/.config/scripts/hyprconky.sh")
 end)
 
