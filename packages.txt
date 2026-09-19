@@ -190,6 +190,7 @@ gexiv2-common
 ghostscript
 giflib
 git
+github-cli
 gjs
 glaze
 glib-networking
