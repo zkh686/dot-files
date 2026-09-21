@@ -72,11 +72,11 @@
         "battery",
         "controlCenterButton"
       ],
-      "spacing": 4,
+      "spacing": 2,
       "innerPadding": 1,
       "barInsetPadding": 8,
       "barLengthPadding": 7,
-      "bottomGap": -17,
+      "bottomGap": -6,
       "attachToScreenEdge": false,
       "transparency": 1,
       "widgetTransparency": 1,
