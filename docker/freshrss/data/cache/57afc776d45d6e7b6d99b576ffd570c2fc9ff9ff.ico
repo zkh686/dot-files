@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#A98B69"/>
+
+        <title>Heavy Blog is Heavy </title>
+        <meta name="description" content="Documenting the Golden Age of Metal">
+
+        <style>
+            .dark .background-pattern{background-image:url("https://www.heavyblogisheavy.com/assets/images/dark-pattern.png?v=4dZDXyKjTM3NPOzV")}.light .background-pattern{background-image:url("https://www.heavyblogisheavy.com/assets/images/light-pattern.png?v=s4O8PtoFwdldz6TN")}.dark .post-presentation .author-image-fill{background-image:url("https://www.heavyblogisheavy.com/assets/images/prof-icon-white.png?v=ty3qMsviKLcRgTHZ")}.light .post-presentation .author-image-fill{background-image:url("https://www.heavyblogisheavy.com/assets/images/prof-icon-dark.png?v=FdrVkLWIz5puCKAq")}.dark .logo-light,.light .logo-dark{display:inline-block}.dark .logo-dark,.light .logo-light{display:none}
+        </style>
+
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600|Oswald:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://www.heavyblogisheavy.com/assets/built/css/extra.css?v=XuybWF9VmWUE14PF" rel="stylesheet" type="text/css">
+        
+        <link href="https://www.heavyblogisheavy.com/assets/built/css/style.css?v=gxSL-4SAZXyjyxQN" rel="stylesheet" type="text/css">
+
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+        <link rel="dns-prefetch" href="https://maxcdn.bootstrapcdn.com">
+        <link rel="dns-prefetch" href="https://code.jquery.com">
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+        <script>
+            var switcherActive = false;
+            var themeColors = "brown dark";
+        </script>
+
+        <meta name="description" content="Documenting the Golden Age of Metal; reviews, deep dives, columns, and more!">
+    <link rel="icon" href="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/size/w256h256/2022/08/HBIH-LOGO-symbol-transparent-gold-1.png" type="image/png">
+    <link rel="canonical" href="https://www.heavyblogisheavy.com/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="next" href="https://www.heavyblogisheavy.com/page/2/">
+    
+    <meta property="og:site_name" content="Heavy Blog is Heavy">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Heavy Blog is Heavy">
+    <meta property="og:description" content="Documenting the Golden Age of Metal; reviews, deep dives, columns, and more!">
+    <meta property="og:url" content="https://www.heavyblogisheavy.com/">
+    <meta property="og:image" content="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/size/w1200/2022/09/HBIH-facebook-banner-2.png">
+    <meta property="article:publisher" content="https://www.facebook.com/heavyblog">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Heavy Blog is Heavy">
+    <meta name="twitter:description" content="Documenting the Golden Age of Metal; reviews, deep dives, columns, and more!">
+    <meta name="twitter:url" content="https://www.heavyblogisheavy.com/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/size/w1200/2022/09/HBIH-facebook-banner-1.png">
+    <meta name="twitter:site" content="@HeavyBlog">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="457">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Heavy Blog is Heavy",
+        "url": "https://www.heavyblogisheavy.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2022/09/HBIH-LOGO-wordmark-transparent-gold.png"
+        }
+    },
+    "url": "https://www.heavyblogisheavy.com/",
+    "name": "Heavy Blog is Heavy",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/size/w1200/2022/09/websiteBackground.png",
+        "width": 1200,
+        "height": 216
+    },
+    "mainEntityOfPage": "https://www.heavyblogisheavy.com/",
+    "description": "Documenting the Golden Age of Metal; reviews, deep dives, columns, and more!"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.64">
+    <link rel="alternate" type="application/rss+xml" title="Heavy Blog is Heavy" href="https://www.heavyblogisheavy.com/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.71/umd/portal.min.js" data-i18n="true" data-ghost="https://www.heavyblogisheavy.com/" data-key="77d3ef872a905922b12bc0ab72" data-api="https://heavy-blog-is-heavy.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="77d3ef872a905922b12bc0ab72" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://heavy-blog-is-heavy.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js" data-announcement-bar="https://www.heavyblogisheavy.com/" data-api-url="https://www.heavyblogisheavy.com/members/api/announcement/" crossorigin="anonymous"></script>
+    <link href="https://www.heavyblogisheavy.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=ShRHxgy4po8zN-Wf"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=WwnU9jw5ancNC8Gc">
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script>
+    <script defer src="/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.heavyblogisheavy.com/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="8bc603be-b831-44f6-8ffb-773be5bd45c8" tb_post_uuid="undefined" tb_post_type="null" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #000000;}</style>
+    <style>
+    .has-text-align-right { text-align: right; }
+	.aligncenter { text-align: center; }
+    .backToTop { display: none; }
+    .kg-audio-pause-icon, .kg-audio-play-icon { color: white; }
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JWE1EHF766"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JWE1EHF766');
+</script>
+
+    </head>
+
+    <body class="home-template">
+
+        <!-- MAIN NAVBAR -->
+<div id="main-navbar" class="sticky-ok">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+                <a class="navbar-brand" href="https://www.heavyblogisheavy.com">
+    			<!-- DUAL LOGO SWITCHER
+    			<img alt="Heavy Blog is Heavy" class="img-fluid lazy logo-dark" src="https://www.heavyblogisheavy.com/assets/images/logo-dark.png?v=2815322da2" />
+    			<img alt="Heavy Blog is Heavy" class="img-fluid lazy logo-light" src="https://www.heavyblogisheavy.com/assets/images/logo-light.png?v=2815322da2" />
+    			-->
+    			<!-- SINGLE LOGO -->
+    			<img alt="Heavy Blog is Heavy" class="img-fluid lazy" src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2022/09/HBIH-LOGO-wordmark-transparent-gold.png" />
+    		</a>
+            <div class="mobile-navbar-buttons">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <button data-ghost-search class="d-lg-none btn-control navbar-toggler" type="button"><i class="fa fa-search"></i></button>
+                <div style="display:none;" class="dropdown dropdown-form subscribe subscribe-form">
+    <a href="#" class="nav-link change-theme-color dropdown-toggle navbar-toggler d-lg-none btn-control" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="alternate"><i class="fa fa-user"></i></a>
+    <div class="dropdown-menu animated fadeIn" aria-labelledby="dropdownMenuButton">
+        <div class="info-wrapper">
+                <form data-members-form="signin">
+                    <span>Login / Subscribe</span>
+                    <div class="form-wrapper">
+                        <input class="subscribe-email input_class" data-members-email="" placeholder="youremail@example.com" autocomplete="false">
+                        <i class="fas fa-spinner"></i>
+                    </div>
+                    <span class="success-text">Check your inbox and click the link to confirm your subscription.</span>
+                    <span class="error-text">Please enter a valid email address.</span>
+                    <div class="button-wrapper">
+                        <button type="submit" class="button primary btn btn-no-background">Submit</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="main-navbar-content">
+                <ul class="navbar-nav">
+                            <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.athousandarmsstore.com/collections/heavyblogisheavy">Store</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.patreon.com/heavyblog">Patreon</a>
+        </li>
+
+                    <li class="nav-item d-none d-lg-block">
+                        <a data-ghost-search class="btn-control nav-link"><i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <div style="display:none;" class="dropdown dropdown-form subscribe subscribe-form">
+    <a href="#" class="nav-link change-theme-color dropdown-toggle " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="alternate"><i class="fa fa-user"></i></a>
+    <div class="dropdown-menu animated fadeIn" aria-labelledby="dropdownMenuButton">
+        <div class="info-wrapper">
+                <form data-members-form="signin">
+                    <span>Login / Subscribe</span>
+                    <div class="form-wrapper">
+                        <input class="subscribe-email input_class" data-members-email="" placeholder="youremail@example.com" autocomplete="false">
+                        <i class="fas fa-spinner"></i>
+                    </div>
+                    <span class="success-text">Check your inbox and click the link to confirm your subscription.</span>
+                    <span class="error-text">Please enter a valid email address.</span>
+                    <div class="button-wrapper">
+                        <button type="submit" class="button primary btn btn-no-background">Submit</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+        
+
+<div class="hero-unit">
+    <div id="featured-news-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+                <div class="carousel-item post-presentation lazy active background"
+                data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/422469.jpg">
+                    <div class="gradient gradient1 d-flex align-items-center">
+                        <div class="container d-flex align-items-center">
+                            <div class="row">
+                                <div class="col-sm-12 col-md col-lg col-xs-12">
+                                    <span class="badge animated fadeInDown post-visibility post-public">public</span>
+                                    <h1 class="animated fadeInUp">Green Lung - Necropolitan</h1>
+                                    <div class="post-tags animated fadeIn">
+                                            <a href="/tag/reviews/">Reviews</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md col-lg col-xs-12">
+                                    <p class="animated fadeInDown d-none d-md-block spacing-public">what&#39;s on this album is very good - no one will catch me skipping a Green Lung track when I want to rock the fuck out. But sometimes I want other things and Green Lung&#39;s previous albums gave that to me. Necropolitan does not.</p>
+                                    <a href="/2026/09/10/green-lung-necropolitan/" class="btn btn-no-background animated fadeIn">Read Post <i class="fa fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item post-presentation lazy  background"
+                data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/cover-Dreadnought---Wars-Of-Spirit-Wards-Of-Light-.jpg">
+                    <div class="gradient gradient1 d-flex align-items-center">
+                        <div class="container d-flex align-items-center">
+                            <div class="row">
+                                <div class="col-sm-12 col-md col-lg col-xs-12">
+                                    <span class="badge animated fadeInDown post-visibility post-public">public</span>
+                                    <h1 class="animated fadeInUp">Dreadnought - Wars of Spirit// Wards of Light</h1>
+                                    <div class="post-tags animated fadeIn">
+                                            <a href="/tag/reviews/">Reviews</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md col-lg col-xs-12">
+                                    <p class="animated fadeInDown d-none d-md-block spacing-public">Wars of Spirit // Wards of Light is a further step in the band&#39;s career, deeper into the beating, shadowed heart of their sound.</p>
+                                    <a href="/2026/09/09/dreadnought-wars-of-spirit-wards-of-light/" class="btn btn-no-background animated fadeIn">Read Post <i class="fa fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item post-presentation lazy  background"
+                data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/unnamed.jpg">
+                    <div class="gradient gradient1 d-flex align-items-center">
+                        <div class="container d-flex align-items-center">
+                            <div class="row">
+                                <div class="col-sm-12 col-md col-lg col-xs-12">
+                                    <span class="badge animated fadeInDown post-visibility post-public">public</span>
+                                    <h1 class="animated fadeInUp">Mastodon – Marrow Deep</h1>
+                                    <div class="post-tags animated fadeIn">
+                                            <a href="/tag/reviews/">Reviews</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md col-lg col-xs-12">
+                                    <p class="animated fadeInDown d-none d-md-block spacing-public">Marrow Deep feels fresh and inspired, pushing forward once again when it felt like Mastodon had maybe run out of things to say.</p>
+                                    <a href="/2026/08/28/mastodon-marrow-deep/" class="btn btn-no-background animated fadeIn">Read Post <i class="fa fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- MOBILE CAROUSEL CONTROLS -->
+
+        <a class="carousel-control-prev d-md-none" href="#featured-news-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next d-md-none" href="#featured-news-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+        <!-- CAROUSEL INDICATORS -->
+        <div class="container indicator-container">
+            <div class="row carousel-indicators">
+                <div class="d-none d-md-flex align-items-center col-md-4 col-lg-4 indicator active" data-target="#featured-news-carousel" data-slide-to="0">
+                    <div class="indicator-index">
+                        <h1>1</h1>
+                    </div>
+                    <div class="indicator-content">
+                        <h4>Green Lung - Necropolitan</h4>
+                            <p>by <a href="/author/eden/">Eden Kupermintz</a></p>
+                    </div>
+                </div>
+                <div class="d-none d-md-flex align-items-center col-md-4 col-lg-4 indicator " data-target="#featured-news-carousel" data-slide-to="1">
+                    <div class="indicator-index">
+                        <h1>2</h1>
+                    </div>
+                    <div class="indicator-content">
+                        <h4>Dreadnought - Wars of Spirit// Wards of Light</h4>
+                            <p>by <a href="/author/eden/">Eden Kupermintz</a></p>
+                    </div>
+                </div>
+                <div class="d-none d-md-flex align-items-center col-md-4 col-lg-4 indicator " data-target="#featured-news-carousel" data-slide-to="2">
+                    <div class="indicator-index">
+                        <h1>3</h1>
+                    </div>
+                    <div class="indicator-content">
+                        <h4>Mastodon – Marrow Deep</h4>
+                            <p>by <a href="/author/joshuabulleidgmail-com/">Joshua Bulleid</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div class="latest-post">
+            <div class="container d-md-flex align-items-center">
+                <a href="/tag/reviews/" class="badge badge-primary">REVIEWS</a>
+                <a href="/tag/listen-to-this/" class="badge badge-primary">LISTEN TO THIS!</a>
+                <a href="/tag/doomsday/" class="badge badge-primary">DOOMSDAY</a>
+                <a href="/tag/deaths-door/" class="badge badge-primary">DEATH'S DOOR</a>
+                <a href="/tag/post-rock-post/" class="badge badge-primary">POST ROCK POST</a>
+                <a href="/tag/editors-picks/" class="badge badge-primary">EDITORS' PICKS</a>
+                <a href="/tag/kvlt-kolvmn/" class="badge badge-primary">KVLT KOLVMN</a>
+                <a href="/tag/rotten-to-the-core/" class="badge badge-primary">ROTTEN TO THE CORE</a>
+                <a href="/tag/podcast/" class="badge badge-primary">PODCAST</a>
+            </div>
+        </div>
+
+<div id="main">
+    <div class="container">
+        <div class="row" id="post-loop-wrapper">
+        <div class="col-xs-12 col-sm-12 col-lg-8 col-md-12">
+    <div class="post post-presentation first-post lazy  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/0047235683_10.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/09/11/release-roundup-9-11-26/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Release%20Roundup%3A%209%2F11%2F26&amp;url=https://www.heavyblogisheavy.com/2026/09/11/release-roundup-9-11-26/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <h2><a href="/2026/09/11/release-roundup-9-11-26/">Release Roundup: 9/11/26</a></h2>
+                <div class="post-tags">
+                        <a href="/tag/release-day-roundup/">Release Day Roundup</a>
+                </div>
+                <div class="separator"></div>
+                <p class="d-none d-sm-block">Rounding up new releases from Dreadnought, Green Lung, Harlott, Cartilage, Filth, Whispered, Raphael Weinroth-Browne, Wrong Man, Hole Dweller and more.</p>
+                <a href="/2026/09/11/release-roundup-9-11-26/" class="btn btn-no-background">Read Post <i class="fa fa-chevron-right"></i></a>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/joshuabulleidgmail-com/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://secure.gravatar.com/avatar/8f9f7d24454ac51868b158c4b64525e8?s&#x3D;3000&amp;d&#x3D;identicon&amp;r&#x3D;r"></div>Joshua Bulleid
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+        
+        
+
+        <div class="col-xs-12 col-sm-12 col-lg-4 col-md-12">
+    <div class="post post-presentation second-post lazy  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/422469.jpg">
+        <div class="gradient gradient2">
+            <h3><a href="/2026/09/10/green-lung-necropolitan/">Green Lung - Necropolitan</a></h3>
+            <div class="post-tags">
+                <span class="badge post-visibility post-public">public</span>
+                    <a href="/tag/reviews/">Reviews</a>
+            </div>
+            <div class="share-icons">
+                <div class="icon-container">
+                            <a href="/author/eden/" class="author-info">
+                                <div class="author-image background lazy" data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2025/04/prof.jpg"></div>
+                            </a>
+                    <i class="fa fa-share d-none d-sm-block "></i>
+                    <div class="icons d-none d-sm-block">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/09/10/green-lung-necropolitan/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/share?text=Green%20Lung%20-%20Necropolitan&amp;url=https://www.heavyblogisheavy.com/2026/09/10/green-lung-necropolitan/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="float-bottom">
+                <p>what&#39;s on this album is very good - no one will catch me skipping a Green Lung track when I want to rock the fuck out. But sometimes I want other things and Green Lung&#39;s previous albums gave that to me. Necropolitan does not.</p>
+                <a href="/2026/09/10/green-lung-necropolitan/" class="btn btn-no-background">Read Post <i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/cover-Dreadnought---Wars-Of-Spirit-Wards-Of-Light-.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/09/09/dreadnought-wars-of-spirit-wards-of-light/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Dreadnought%20-%20Wars%20of%20Spirit%2F%2F%20Wards%20of%20Light&amp;url=https://www.heavyblogisheavy.com/2026/09/09/dreadnought-wars-of-spirit-wards-of-light/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/09/09/dreadnought-wars-of-spirit-wards-of-light/">Dreadnought - Wars of Spirit// Wards of Light</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/reviews/">Reviews</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/eden/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2025/04/prof.jpg"></div>
+                        Eden Kupermintz
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/ab67616d0000b2730bfc6cb1ba2b8ccdc2a829a0.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/09/08/hole-dweller-long-road-home/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Hole%20Dweller%20-%20Long%20Road%20Home&amp;url=https://www.heavyblogisheavy.com/2026/09/08/hole-dweller-long-road-home/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/09/08/hole-dweller-long-road-home/">Hole Dweller - Long Road Home</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/reviews/">Reviews</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/mitchell/" class="vertical-align author-info">
+                        <div class="author-image background lazy author-image-fill" ></div>
+                        Mitchell Connolly
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/a0410474614_10.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/09/04/release-roundup-9-4-26/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Release%20Roundup%3A%209%2F4%2F26&amp;url=https://www.heavyblogisheavy.com/2026/09/04/release-roundup-9-4-26/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/09/04/release-roundup-9-4-26/">Release Roundup: 9/4/26</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/release-day-roundup/">Release Day Roundup</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/joshuabulleidgmail-com/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://secure.gravatar.com/avatar/8f9f7d24454ac51868b158c4b64525e8?s&#x3D;3000&amp;d&#x3D;identicon&amp;r&#x3D;r"></div>
+                        Joshua Bulleid
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/128126.png">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/09/03/showing-teeth-a-fate-worse-than-loneliness/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Showing%20Teeth%20-%20A%20Fate%20Worse%20Than%20Loneliness&amp;url=https://www.heavyblogisheavy.com/2026/09/03/showing-teeth-a-fate-worse-than-loneliness/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/09/03/showing-teeth-a-fate-worse-than-loneliness/">Showing Teeth - A Fate Worse Than Loneliness</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/reviews/">Reviews</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/phil/" class="vertical-align author-info">
+                        <div class="author-image background lazy author-image-fill" ></div>
+                        Phil Knock
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/images.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/09/03/steve-hackett-steve-rothery-the-roaring-waves/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Steve%20Hackett%20%26%20Steve%20Rothery%20-%20The%20Roaring%20Waves&amp;url=https://www.heavyblogisheavy.com/2026/09/03/steve-hackett-steve-rothery-the-roaring-waves/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/09/03/steve-hackett-steve-rothery-the-roaring-waves/">Steve Hackett &amp; Steve Rothery - The Roaring Waves</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/reviews/">Reviews</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/mitchell/" class="vertical-align author-info">
+                        <div class="author-image background lazy author-image-fill" ></div>
+                        Mitchell Connolly
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/09/a4268465219_10.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/09/03/sleep-hempispheres/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Sleep%20-%20Hempispheres&amp;url=https://www.heavyblogisheavy.com/2026/09/03/sleep-hempispheres/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/09/03/sleep-hempispheres/">Sleep - Hempispheres</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/reviews/">Reviews</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/jordan/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2025/04/me2-1.png"></div>
+                        Jordan Jerabek
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/07/606168.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/31/februus-construction-of-conflict/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Februus%20-%20Construction%20of%20Conflict&amp;url=https://www.heavyblogisheavy.com/2026/08/31/februus-construction-of-conflict/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/31/februus-construction-of-conflict/">Februus - Construction of Conflict</a></h3>
+                <div class="post-tags">
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/mitchell/" class="vertical-align author-info">
+                        <div class="author-image background lazy author-image-fill" ></div>
+                        Mitchell Connolly
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/IMG_0379.jpeg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/29/track-premiere-set-your-ears-ablaze-with-convulsif/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Track%20Premiere%3A%20Set%20Your%20Ears%20Ablaze%20with%20Convulsif&amp;url=https://www.heavyblogisheavy.com/2026/08/29/track-premiere-set-your-ears-ablaze-with-convulsif/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/29/track-premiere-set-your-ears-ablaze-with-convulsif/">Track Premiere: Set Your Ears Ablaze with Convulsif</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/premieres/">Premieres</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/bridget/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2025/06/IMG_7218-1.jpg"></div>
+                        Bridget Hughes
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/unnamed-1.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/28/exclusive-premiere-pelegrin-wander-into-sun-and-blood/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=EXCLUSIVE%20PREMIERE%3A%20Pelegrin%20Wander%20Into%20%22Sun%20And%20Blood%22&amp;url=https://www.heavyblogisheavy.com/2026/08/28/exclusive-premiere-pelegrin-wander-into-sun-and-blood/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/28/exclusive-premiere-pelegrin-wander-into-sun-and-blood/">EXCLUSIVE PREMIERE: Pelegrin Wander Into &quot;Sun And Blood&quot;</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/premieres/">Premieres</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/eden/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2025/04/prof.jpg"></div>
+                        Eden Kupermintz
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/Gorod-The-Ember-Gone-768x768.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/28/release-roundup-8-28-26/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Release%20Roundup%3A%208%2F28%2F26&amp;url=https://www.heavyblogisheavy.com/2026/08/28/release-roundup-8-28-26/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/28/release-roundup-8-28-26/">Release Roundup: 8/28/26</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/release-day-roundup/">Release Day Roundup</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/joshuabulleidgmail-com/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://secure.gravatar.com/avatar/8f9f7d24454ac51868b158c4b64525e8?s&#x3D;3000&amp;d&#x3D;identicon&amp;r&#x3D;r"></div>
+                        Joshua Bulleid
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/unnamed.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/28/mastodon-marrow-deep/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Mastodon%20%E2%80%93%20Marrow%20Deep&amp;url=https://www.heavyblogisheavy.com/2026/08/28/mastodon-marrow-deep/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/28/mastodon-marrow-deep/">Mastodon – Marrow Deep</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/reviews/">Reviews</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/joshuabulleidgmail-com/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://secure.gravatar.com/avatar/8f9f7d24454ac51868b158c4b64525e8?s&#x3D;3000&amp;d&#x3D;identicon&amp;r&#x3D;r"></div>
+                        Joshua Bulleid
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/Winter-At-Sea---Hearts---Digital-Cover.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/27/exclusive-premiere-winter-at-sea-show-you-their-hearts/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=EXCLUSIVE%20PREMIERE%3A%20Winter%20At%20Sea%20Show%20You%20Their%20%22Hearts%22&amp;url=https://www.heavyblogisheavy.com/2026/08/27/exclusive-premiere-winter-at-sea-show-you-their-hearts/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/27/exclusive-premiere-winter-at-sea-show-you-their-hearts/">EXCLUSIVE PREMIERE: Winter At Sea Show You Their &quot;Hearts&quot;</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/premieres/">Premieres</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/eden/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2025/04/prof.jpg"></div>
+                        Eden Kupermintz
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/Perpetual-Paradox-May-Misery-Befall-You.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/26/the-anatomy-of-perpetual-paradox/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=The%20Anatomy%20Of%3A%20Perpetual%20Paradox&amp;url=https://www.heavyblogisheavy.com/2026/08/26/the-anatomy-of-perpetual-paradox/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/26/the-anatomy-of-perpetual-paradox/">The Anatomy Of: Perpetual Paradox</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/anatomy-of/">Anatomy Of</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/joshuabulleidgmail-com/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://secure.gravatar.com/avatar/8f9f7d24454ac51868b158c4b64525e8?s&#x3D;3000&amp;d&#x3D;identicon&amp;r&#x3D;r"></div>
+                        Joshua Bulleid
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/RussianCircles1776894351430366.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/26/russian-circles-nine/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Russian%20Circles%20-%20Nine&amp;url=https://www.heavyblogisheavy.com/2026/08/26/russian-circles-nine/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/26/russian-circles-nine/">Russian Circles - Nine</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/reviews/">Reviews</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/eden/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2025/04/prof.jpg"></div>
+                        Eden Kupermintz
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+        
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="post post-square lazy post-presentation  background"
+         data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2026/08/a1529313226_10.jpg">
+        <div class="gradient gradient2 d-flex align-items-center">
+            <span class="badge post-visibility post-public">public</span>
+            <div class="float-top">
+                <div href="#" class="share-icons d-none d-sm-block">
+                    <div class="icon-container">
+                        <i class="fa fa-share"></i>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.heavyblogisheavy.com/2026/08/21/release-roundup-8-21-26/" onclick="window.open(this.href, 'facebook-share','width=580, height=300');return false;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/share?text=Release%20Roundup%3A%208%2F21%2F26&amp;url=https://www.heavyblogisheavy.com/2026/08/21/release-roundup-8-21-26/" onclick="window.open(this.href, 'twitter-share', 'width=580, height=300');return false;"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-info">
+                <div class="separator"></div>
+                <h3><a href="/2026/08/21/release-roundup-8-21-26/">Release Roundup: 8/21/26</a></h3>
+                <div class="post-tags">
+                        <a href="/tag/release-day-roundup/">Release Day Roundup</a>
+                </div>
+            </div>
+            <div class="float-bottom">
+                    <a href="/author/joshuabulleidgmail-com/" class="vertical-align author-info">
+                        <div class="author-image background lazy "  data-src="https://secure.gravatar.com/avatar/8f9f7d24454ac51868b158c4b64525e8?s&#x3D;3000&amp;d&#x3D;identicon&amp;r&#x3D;r"></div>
+                        Joshua Bulleid
+                    </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>    </div>
+</div>
+
+<!-- PAGINATION -->
+<div id="pagination">
+    <div class="container">
+        <div id="load-more" class="text-center page-indicator">
+            More Posts<i class="fas fa-arrow-down"></i>
+        </div>
+    </div>
+</div>
+
+
+
+        <div id="search-section">
+    <form class="container">
+        <input autocomplete="off" ype="text" class="form form-control" id="search-field" placeholder="Search a post...">
+        <input type="submit" value="search" class="d-none">
+        <div id="results"></div>
+    </form>
+    <i class="search-panel-toggle fa fa-close fas fa-times"></i>
+    <i class="fas fa-spinner"></i>
+</div>
+        <a href="#" class="backToTop">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+        <footer id="rights" class="lazy background"
+data-src="https://storage.ghost.io/c/8b/c6/8bc603be-b831-44f6-8ffb-773be5bd45c8/content/images/2022/09/websiteBackground.png">
+    <div class="gradient gradient2">
+        <div class="container d-md-flex align-items justify-content-between">
+            <p style="display:none;">Heavy Blog is Heavy &copy; 2026.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/heavyblog" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/HeavyBlog" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.heavyblogisheavy.com/rss/" taget="_blank" rel="noopener"><i class="fa fa-rss"></i></a>
+            </div>
+        </div>
+            </div>
+</footer>
+
+
+        <script>
+            var ghosthunter_key = "b05654645c132973ce8f7f3b4a";
+            var maxPages = parseInt('554');
+            var endMessage = 'No More Posts';
+            var loadingMessage = 'Loading...';
+            var Message = 'More posts';
+        </script>
+
+        <script src="https://www.heavyblogisheavy.com/assets/built/js/extra.js?v=yPE8wqbz4BPdbrEC"></script>
+        
+        <script src="https://www.heavyblogisheavy.com/assets/built/js/main.js?v=iO_dPzB8sVPCBUZQ"></script>
+
+        
+
+    </body>
+
+</html>

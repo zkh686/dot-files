@@ -1,0 +1,22 @@
+# SearXNG settings — see https://docs.searxng.org/admin/index.html
+use_default_settings: true
+
+server:
+  # Random secret key (generated )
+  secret_key: "d190fa6702a69b672aa2ee5dbca7656eb5c011ecdf946204"
+  # Off for local/trusted use; enable if you expose it publicly (needs valkey, which is included)
+  limiter: false
+  image_proxy: true
+  public_instance: false
+  # Base URL: https://searx.example.com/
+
+search:
+  # Enable JSON output in addition to HTML (useful for API access, e.g. from AI apps)
+  formats:
+    - html
+    - json
+
+# Outbound traffic via a proxy (optional)
+# outgoing:
+#   request_timeout: 3.0
+#   max_request_timeout: 15.0
