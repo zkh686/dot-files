@@ -7,6 +7,7 @@
 conky.config = {
 
 	--Various settings
+	out_to_x = false,
 	out_to_wayland = true,
 	background = false,
 	cpu_avg_samples = 2,
@@ -43,7 +44,7 @@ conky.config = {
 	--Textual
 	
 	format_human_readable = true,
-	font = 'ubuntu:size=11:bold',
+	font = 'ubuntu:size=12:bold',
 	max_text_width = 0,
 	short_units = true,
 	use_xft = true,
@@ -54,7 +55,7 @@ conky.config = {
 	own_window = true,
 	own_window_argb_visual = true,
 	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
-	own_window_type = 'desktop',-- # options are: normal/override/dock/desktop/panel
+	own_window_type = 'override',-- # options are: normal/override/dock/desktop/panel
 	
 
 	--Colours
