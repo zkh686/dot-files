@@ -1,0 +1,57 @@
+[theme]
+mode = "dark"
+
+[location]
+auto_locate = false          # Set to true to use IP-based lookup via noctalia.dev
+address = "Upper Sandusky, OH" # Your city/region string when auto_locate is false
+# latitude = 40.8279         # Optional manual latitude
+# longitude = -83.2795       # Optional manual longitude
+
+[weather]
+enabled = true
+refresh_minutes = 30
+unit = "imperial" # Set to "imperial" for Fahrenheit, mph, etc.
+effects = true
+
+
+[bar.default.monitor.dp1]
+match = "DP-1"
+margin_ends = 0        # Eliminates the inset gaps on both sides of the bar
+margin_edge = 0        # Flushes the bar completely against the screen edge
+radius = 0
+start = ["launcher", "workspaces",]
+center = ["clock", "weather"] 
+
+[bar.default.monitor.DP-2]
+enabled = false
+
+[widget.clock]
+format = "{:%I:%M %p}"
+
+[widget.workspaces]
+style = "minimal"       # regular | minimal | focus_hint
+show_labels = true      # false = unlabeled pills (Focus Hint: app icon only)
+show_icons = true       # focus_hint only; false = active pill without the focused app icon
+label_source = "id"     # id | name
+max_label_chars = 2     # truncate long workspace names (e.g. "VESKTOP" → "VE")
+labels_only_when_occupied = true  # (1) (2*) ( ) (4) - occupied tags and the active tag show labels (*active but empty)
+hide_when_empty = true
+show_all_outputs = false  # true = include workspaces from every monitor; this bar's monitor comes first
+pill_scale = 1.0
+active_pill_size = 2.2
+inactive_pill_size = 1.0
+focused_color = "primary"
+occupied_color = "secondary"
+empty_color = "surface_variant"
+urgent_color = "error"
+change_color_on_hover = true  # false = keep configured workspace colors while hovering
+focused_output_only = false  # true = only the focused monitor highlights its active workspace
+
+[widget.launcher]
+useDistroLogo = true
+use_distro_logo = true  
+colorized = true 
+
+
+[plugins]
+enabled = ["yuuto/arch-updater"]
