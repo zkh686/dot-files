@@ -4,13 +4,6 @@
 POSH=agnoster
 
 # -----------------------------------------------------
-# oh-myzsh themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# -----------------------------------------------------
-# ZSH_THEME=robbyrussell
-
-
-
-# -----------------------------------------------------
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 # -----------------------------------------------------
 source <(fzf --zsh)
@@ -23,6 +16,10 @@ setopt appendhistory
 
 #--- add zoxide
 eval "$(zoxide init zsh --cmd cd)"
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
 
 # -----------------------------------------------------
 # Prompt

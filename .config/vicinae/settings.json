@@ -11,8 +11,19 @@
 {
    "$schema": "https://vicinae.com/schemas/config.json",
    "theme": {
-      "matugen": {
-         "name": "matugen"
+      "dark": {
+         "name": "noctalia"
+      }
+   },
+   "providers": {
+      "snippets": {
+         "preferences": {
+            "enabled": true,
+            "keyDelay": "2",
+            "layout": "",
+            "prePasteDelay": "0",
+            "undo": true
+         }
       }
    }
 }

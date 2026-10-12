@@ -1,11 +1,11 @@
 [[plugin.deps]]
 use = "AminurAlam/yazi-plugins:spot"
-rev = "9997d5b"
-hash = "5c045744914668f647e67bd4ea3fb9a2"
+rev = "28eea47"
+hash = "2e64679e3a122716a386954733cd3c28"
 
 [[plugin.deps]]
 use = "AminurAlam/yazi-plugins:spot-video"
-rev = "9997d5b"
+rev = "28eea47"
 hash = "1e3ea3fe62450615ceca63910c9b629b"
 
 [[plugin.deps]]

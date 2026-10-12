@@ -1,0 +1,4 @@
+[theme.templates.user.spicetify]
+input_path = '~/.config/noctalia/templates/spicetify.ini'
+output_path = '~/.config/spicetify/Themes/Comfy/colors.ini'
+post_hook = 'spicetify apply'

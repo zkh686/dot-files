@@ -17,7 +17,6 @@
     },
     "window": {
         "csd": false,
-        "opacity": 0.98,
-        "rounding": 0
+        "opacity": 0.98        
     }
 }

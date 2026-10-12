@@ -19,7 +19,7 @@ match = "DP-1"
 margin_ends = 0        # Eliminates the inset gaps on both sides of the bar
 margin_edge = 0        # Flushes the bar completely against the screen edge
 radius = 0
-start = ["launcher", "workspaces",]
+start = ["workspaces"]
 center = ["clock", "weather"] 
 
 [bar.default.monitor.DP-2]
@@ -47,11 +47,6 @@ urgent_color = "error"
 change_color_on_hover = true  # false = keep configured workspace colors while hovering
 focused_output_only = false  # true = only the focused monitor highlights its active workspace
 
-[widget.launcher]
-useDistroLogo = true
-use_distro_logo = true  
-colorized = true 
-
-
 [plugins]
 enabled = ["yuuto/arch-updater"]
+

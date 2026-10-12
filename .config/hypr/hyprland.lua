@@ -101,3 +101,6 @@ require("conf.extra.scratchpad")
 -- AUTOSTART
 require("conf.autostart")
 
+
+-- For Noctalia Color templates
+require("noctalia").apply_theme()
